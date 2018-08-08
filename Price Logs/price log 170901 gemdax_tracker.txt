@@ -1,0 +1,308 @@
+Microsoft Windows [Version 10.0.15063]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\WINDOWS\system32>cd C:\pyfiles
+
+C:\PYFiles>python gemdax_tracker.py
+GDAX & Gemini Arbitrage Trading Bot v1.0
+created 8/31/2017 == christophercoca@gmail.com
+Start Time: 2017-09-01T13:08:53.647000-07:00
+Loop Time: 0:00:01.765000 -- R1: -0.5250
+Loop Time: 0:00:01.765000 -- R2: -0.4249
+Loop Time: 0:00:03.348000 -- R1: -0.5250
+Loop Time: 0:00:03.348000 -- R2: -0.4249
+Loop Time: 0:00:05.096000 -- R1: -0.5250
+Loop Time: 0:00:05.096000 -- R2: -0.4249
+Loop Time: 0:00:06.657000 -- R1: -0.5250
+Loop Time: 0:00:06.657000 -- R2: -0.4249
+Loop Time: 0:00:08.265000 -- R1: -0.5250
+Loop Time: 0:00:08.265000 -- R2: -0.4124
+Loop Time: 0:00:09.809000 -- R1: -0.5250
+Loop Time: 0:00:09.809000 -- R2: -0.4124
+Loop Time: 0:00:11.388000 -- R1: -0.5250
+Loop Time: 0:00:11.388000 -- R2: -0.4124
+Loop Time: 0:00:12.946000 -- R1: -0.5500
+Loop Time: 0:00:12.946000 -- R2: -0.4124
+Loop Time: 0:00:14.558000 -- R1: -0.5500
+Loop Time: 0:00:14.558000 -- R2: -0.4124
+Loop Time: 0:00:16.188000 -- R1: -0.6375
+Loop Time: 0:00:16.188000 -- R2: -0.4124
+Loop Time: 0:00:17.835000 -- R1: -0.6375
+Loop Time: 0:00:17.835000 -- R2: -0.3246
+Loop Time: 0:00:19.633000 -- R1: -0.6375
+Loop Time: 0:00:19.633000 -- R2: -0.3246
+Loop Time: 0:00:21.211000 -- R1: -0.6375
+Loop Time: 0:00:21.211000 -- R2: -0.3246
+Loop Time: 0:00:22.839000 -- R1: -0.6375
+Loop Time: 0:00:22.839000 -- R2: -0.3246
+Loop Time: 0:00:24.447000 -- R1: -0.6375
+Loop Time: 0:00:24.447000 -- R2: -0.3246
+Loop Time: 0:00:26.118000 -- R1: -0.6375
+Loop Time: 0:00:26.118000 -- R2: -0.3246
+Loop Time: 0:00:27.709000 -- R1: -0.6375
+Loop Time: 0:00:27.709000 -- R2: -0.3246
+Loop Time: 0:00:29.301000 -- R1: -0.6375
+Loop Time: 0:00:29.301000 -- R2: -0.3246
+Loop Time: 0:00:30.926000 -- R1: -0.6375
+Loop Time: 0:00:30.926000 -- R2: -0.3246
+Loop Time: 0:00:32.505000 -- R1: -0.6375
+Loop Time: 0:00:32.505000 -- R2: -0.3246
+Loop Time: 0:00:34.056000 -- R1: -0.6375
+Loop Time: 0:00:34.056000 -- R2: -0.3246
+Loop Time: 0:00:35.905000 -- R1: -0.6375
+Loop Time: 0:00:35.905000 -- R2: -0.3246
+Loop Time: 0:00:37.472000 -- R1: -0.6375
+Loop Time: 0:00:37.472000 -- R2: -0.3246
+Loop Time: 0:00:39.877000 -- R1: -0.6500
+Loop Time: 0:00:39.877000 -- R2: -0.3246
+Loop Time: 0:00:41.457000 -- R1: -0.6500
+Loop Time: 0:00:41.457000 -- R2: -0.3246
+Loop Time: 0:00:43.318000 -- R1: -0.6500
+Loop Time: 0:00:43.318000 -- R2: -0.3246
+Loop Time: 0:00:45.878000 -- R1: -0.6500
+Loop Time: 0:00:45.878000 -- R2: -0.3246
+Loop Time: 0:00:47.457000 -- R1: -0.6500
+Loop Time: 0:00:47.457000 -- R2: -0.3121
+Loop Time: 0:00:49.274000 -- R1: -0.6500
+Loop Time: 0:00:49.274000 -- R2: -0.2870
+Loop Time: 0:00:50.906000 -- R1: -0.6750
+Loop Time: 0:00:50.906000 -- R2: -0.2870
+Loop Time: 0:00:52.441000 -- R1: -0.6750
+Loop Time: 0:00:52.441000 -- R2: -0.2870
+Loop Time: 0:00:54.281000 -- R1: -0.6750
+Loop Time: 0:00:54.281000 -- R2: -0.2870
+Loop Time: 0:00:55.923000 -- R1: -0.6750
+Loop Time: 0:00:55.923000 -- R2: -0.2870
+Loop Time: 0:00:57.618000 -- R1: -0.6750
+Loop Time: 0:00:57.618000 -- R2: -0.2745
+Loop Time: 0:00:59.182000 -- R1: -0.6750
+Loop Time: 0:00:59.182000 -- R2: -0.2870
+Loop Time: 0:01:00.802000 -- R1: -0.6750
+Loop Time: 0:01:00.802000 -- R2: -0.2870
+Loop Time: 0:01:02.537000 -- R1: -0.6750
+Loop Time: 0:01:02.537000 -- R2: -0.2870
+Loop Time: 0:01:04.210000 -- R1: -0.6750
+Loop Time: 0:01:04.210000 -- R2: -0.2996
+Loop Time: 0:01:05.863000 -- R1: -0.6750
+Loop Time: 0:01:05.863000 -- R2: -0.2870
+Loop Time: 0:01:07.656000 -- R1: -0.6750
+Loop Time: 0:01:07.656000 -- R2: -0.2870
+Loop Time: 0:01:09.347000 -- R1: -0.6750
+Loop Time: 0:01:09.347000 -- R2: -0.2870
+Loop Time: 0:01:10.962000 -- R1: -0.6750
+Loop Time: 0:01:10.962000 -- R2: -0.2870
+Loop Time: 0:01:12.790000 -- R1: -0.6750
+Loop Time: 0:01:12.790000 -- R2: -0.2619
+Loop Time: 0:01:14.463000 -- R1: -0.6625
+Loop Time: 0:01:14.463000 -- R2: -0.2870
+Loop Time: 0:01:16.067000 -- R1: -0.6625
+Loop Time: 0:01:16.067000 -- R2: -0.2745
+Loop Time: 0:01:17.640000 -- R1: -0.6625
+Loop Time: 0:01:17.640000 -- R2: -0.2745
+Loop Time: 0:01:19.220000 -- R1: -0.6625
+Loop Time: 0:01:19.220000 -- R2: -0.2745
+Loop Time: 0:01:20.991000 -- R1: -0.6625
+Loop Time: 0:01:20.991000 -- R2: -0.2745
+Loop Time: 0:01:22.543000 -- R1: -0.6750
+Loop Time: 0:01:22.543000 -- R2: -0.2745
+Loop Time: 0:01:24.402000 -- R1: -0.6750
+Loop Time: 0:01:24.402000 -- R2: -0.2870
+Loop Time: 0:01:26.185000 -- R1: -0.6750
+Loop Time: 0:01:26.185000 -- R2: -0.2745
+Loop Time: 0:01:27.759000 -- R1: -0.6750
+Loop Time: 0:01:27.759000 -- R2: -0.2745
+Loop Time: 0:01:29.529000 -- R1: -0.6750
+Loop Time: 0:01:29.529000 -- R2: -0.2870
+Loop Time: 0:01:31.287000 -- R1: -0.6750
+Loop Time: 0:01:31.287000 -- R2: -0.2996
+Loop Time: 0:01:32.891000 -- R1: -0.6750
+Loop Time: 0:01:32.891000 -- R2: -0.2996
+Loop Time: 0:01:34.496000 -- R1: -0.6750
+Loop Time: 0:01:34.496000 -- R2: -0.2996
+Loop Time: 0:01:36.207000 -- R1: -0.6750
+Loop Time: 0:01:36.207000 -- R2: -0.2870
+Loop Time: 0:01:37.743000 -- R1: -0.7000
+Loop Time: 0:01:37.743000 -- R2: -0.2870
+Loop Time: 0:01:39.297000 -- R1: -0.7000
+Loop Time: 0:01:39.297000 -- R2: -0.2870
+Loop Time: 0:01:41.012000 -- R1: -0.7000
+Loop Time: 0:01:41.012000 -- R2: -0.2996
+Loop Time: 0:01:42.597000 -- R1: -0.7000
+Loop Time: 0:01:42.597000 -- R2: -0.2745
+Loop Time: 0:01:44.182000 -- R1: -0.7000
+Loop Time: 0:01:44.182000 -- R2: -0.2745
+Loop Time: 0:01:45.767000 -- R1: -0.7000
+Loop Time: 0:01:45.767000 -- R2: -0.2745
+Loop Time: 0:01:47.411000 -- R1: -0.7000
+Loop Time: 0:01:47.411000 -- R2: -0.2870
+Loop Time: 0:01:49.067000 -- R1: -0.7000
+Loop Time: 0:01:49.067000 -- R2: -0.2870
+Loop Time: 0:01:50.656000 -- R1: -0.7000
+Loop Time: 0:01:50.656000 -- R2: -0.2870
+Loop Time: 0:01:52.229000 -- R1: -0.7000
+Loop Time: 0:01:52.229000 -- R2: -0.2996
+Loop Time: 0:01:53.834000 -- R1: -0.7000
+Loop Time: 0:01:53.834000 -- R2: -0.2996
+Loop Time: 0:01:55.415000 -- R1: -0.7000
+Loop Time: 0:01:55.415000 -- R2: -0.2996
+Loop Time: 0:01:56.986000 -- R1: -0.5875
+Loop Time: 0:01:56.986000 -- R2: -0.2996
+Loop Time: 0:01:58.548000 -- R1: -0.6000
+Loop Time: 0:01:58.548000 -- R2: -0.2996
+Loop Time: 0:02:00.315000 -- R1: -0.5875
+Loop Time: 0:02:00.315000 -- R2: -0.2996
+Loop Time: 0:02:01.853000 -- R1: -0.5875
+Loop Time: 0:02:01.853000 -- R2: -0.3121
+Loop Time: 0:02:03.441000 -- R1: -0.6125
+Loop Time: 0:02:03.441000 -- R2: -0.3121
+Loop Time: 0:02:05.225000 -- R1: -0.6500
+Loop Time: 0:02:05.225000 -- R2: -0.3121
+Loop Time: 0:02:06.828000 -- R1: -0.6000
+Loop Time: 0:02:06.828000 -- R2: -0.3121
+Loop Time: 0:02:08.458000 -- R1: -0.6250
+Loop Time: 0:02:08.458000 -- R2: -0.2996
+Loop Time: 0:02:10.281000 -- R1: -0.6250
+Loop Time: 0:02:10.281000 -- R2: -0.2996
+Loop Time: 0:02:11.964000 -- R1: -0.6125
+Loop Time: 0:02:11.964000 -- R2: -0.2870
+Loop Time: 0:02:13.555000 -- R1: -0.6375
+Loop Time: 0:02:13.555000 -- R2: -0.2745
+Loop Time: 0:02:15.301000 -- R1: -0.6250
+Loop Time: 0:02:15.301000 -- R2: -0.2870
+Loop Time: 0:02:16.965000 -- R1: -0.6625
+Loop Time: 0:02:16.965000 -- R2: -0.2870
+Loop Time: 0:02:18.541000 -- R1: -0.7125
+Loop Time: 0:02:18.541000 -- R2: -0.2870
+Loop Time: 0:02:20.108000 -- R1: -0.6751
+Loop Time: 0:02:20.108000 -- R2: -0.3246
+Loop Time: 0:02:21.708000 -- R1: -0.6751
+Loop Time: 0:02:21.708000 -- R2: -0.3246
+Loop Time: 0:02:23.527000 -- R1: -0.6751
+Loop Time: 0:02:23.527000 -- R2: -0.3121
+Loop Time: 0:02:25.064000 -- R1: -0.6751
+Loop Time: 0:02:25.064000 -- R2: -0.3121
+Loop Time: 0:02:26.667000 -- R1: -0.6876
+Loop Time: 0:02:26.667000 -- R2: -0.3121
+Loop Time: 0:02:28.290000 -- R1: -0.6876
+Loop Time: 0:02:28.290000 -- R2: -0.3121
+Loop Time: 0:02:30.079000 -- R1: -0.6876
+Loop Time: 0:02:30.079000 -- R2: -0.3121
+Loop Time: 0:02:31.693000 -- R1: -0.6876
+Loop Time: 0:02:31.693000 -- R2: -0.3121
+Loop Time: 0:02:33.313000 -- R1: -0.6751
+Loop Time: 0:02:33.313000 -- R2: -0.3121
+Loop Time: 0:02:34.852000 -- R1: -0.6751
+Loop Time: 0:02:34.852000 -- R2: -0.3121
+Loop Time: 0:02:36.481000 -- R1: -0.6751
+Loop Time: 0:02:36.481000 -- R2: -0.3121
+Loop Time: 0:02:38.093000 -- R1: -0.6751
+Loop Time: 0:02:38.093000 -- R2: -0.3121
+Loop Time: 0:02:39.695000 -- R1: -0.6751
+Loop Time: 0:02:39.695000 -- R2: -0.3121
+Loop Time: 0:02:41.284000 -- R1: -0.6751
+Loop Time: 0:02:41.284000 -- R2: -0.3121
+Loop Time: 0:02:42.875000 -- R1: -0.6751
+Loop Time: 0:02:42.875000 -- R2: -0.3121
+Loop Time: 0:02:44.477000 -- R1: -0.6751
+Loop Time: 0:02:44.477000 -- R2: -0.3121
+Loop Time: 0:02:46.119000 -- R1: -0.6751
+Loop Time: 0:02:46.119000 -- R2: -0.3121
+Loop Time: 0:02:47.769000 -- R1: -0.6751
+Loop Time: 0:02:47.769000 -- R2: -0.3121
+Loop Time: 0:02:49.400000 -- R1: -0.6626
+Loop Time: 0:02:49.400000 -- R2: -0.3246
+Loop Time: 0:02:51.228000 -- R1: -0.5501
+Loop Time: 0:02:51.228000 -- R2: -0.4374
+Loop Time: 0:02:52.781000 -- R1: -0.5250
+Loop Time: 0:02:52.781000 -- R2: -0.4624
+Loop Time: 0:02:54.376000 -- R1: -0.5250
+Loop Time: 0:02:54.376000 -- R2: -0.4624
+Loop Time: 0:02:55.998000 -- R1: -0.5250
+Loop Time: 0:02:55.998000 -- R2: -0.4624
+Loop Time: 0:02:57.612000 -- R1: -0.5250
+Loop Time: 0:02:57.612000 -- R2: -0.4624
+Traceback (most recent call last):
+  File "gemdax_tracker.py", line 46, in <module>
+    gdax_buy_price = (float(gdax_bid())+0.00001)
+  File "gemdax_tracker.py", line 33, in gdax_bid
+    ticker = public_client.get_product_ticker('ETH-BTC')
+  File "C:\Python27\lib\site-packages\gdax\public_client.py", line 116, in get_product_ticker
+    .format(product_id))
+  File "C:\Python27\lib\site-packages\requests\api.py", line 70, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\api.py", line 56, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 488, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 609, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\adapters.py", line 423, in send
+    timeout=timeout
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 345, in _make_request
+    self._validate_conn(conn)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 844, in _validate_conn
+    conn.connect()
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\util\ssl_.py", line 308, in ssl_wrap_socket
+    context.load_verify_locations(ca_certs, ca_cert_dir)
+KeyboardInterrupt
+
+C:\PYFiles>python gemdax_tracker.py
+GDAX & Gemini Arbitrage Trading Bot v1.0
+created 8/31/2017 == christophercoca@gmail.com
+Start Time: 2017-09-01T13:11:54.818000-07:00
+Loop Time, 0:10:45.399000 ,    R1, 0.0046
+Loop Time, 0:11:10.329000 ,    R1, 0.1316
+Loop Time, 0:11:13.251000 ,    R1, 0.1062
+Loop Time, 0:11:14.705000 ,    R1, 0.0428
+Loop Time, 0:11:16.393000 ,    R1, 0.0174
+Loop Time, 0:11:28.631000 ,    R1, 0.0811
+Loop Time, 0:11:30.101000 ,    R1, 0.0811
+Loop Time, 0:11:31.555000 ,    R1, 0.0811
+Loop Time, 0:11:33.040000 ,    R1, 0.0684
+Loop Time, 0:11:34.587000 ,    R1, 0.0051
+Loop Time, 0:24:21.433000 ,    R2, 0.0153
+Loop Time, 0:45:13.030000 ,    R2, 0.0750
+Loop Time, 0:45:14.487000 ,    R2, 0.0500
+Loop Time, 0:45:15.943000 ,    R2, 0.0500
+Loop Time, 0:45:17.441000 ,    R2, 0.0500
+Loop Time, 0:45:18.930000 ,    R2, 0.0500
+Loop Time, 0:45:20.436000 ,    R2, 0.0500
+Loop Time, 0:45:22.812000 ,    R2, 0.0500
+Loop Time, 0:45:24.322000 ,    R2, 0.0500
+Loop Time, 0:45:25.921000 ,    R2, 0.0500
+Loop Time, 0:45:27.723000 ,    R2, 0.0500
+Loop Time, 0:45:29.151000 ,    R2, 0.0375
+Loop Time, 0:45:30.583000 ,    R2, 0.0375
+Loop Time, 0:54:28.345000 ,    R2, 0.0230
+Loop Time, 0:54:29.853000 ,    R2, 0.0230
+Loop Time, 0:54:31.326000 ,    R2, 0.0230
+Loop Time, 0:54:32.929000 ,    R2, 0.0230
+Loop Time, 4:27:52.960000 ,    R1, 0.0694
+Loop Time, 4:27:55.212000 ,    R1, 0.0058
+Loop Time, 5:28:58.138000 ,    R2, 0.0252
+Loop Time, 5:29:00.171000 ,    R2, 0.0380
+Loop Time, 5:29:02.530000 ,    R2, 0.0380
+Loop Time, 5:29:04.796000 ,    R2, 0.0380
+Loop Time, 5:29:06.313000 ,    R2, 0.0380
+Loop Time, 5:29:08.306000 ,    R2, 0.0380
+Loop Time, 5:29:10.511000 ,    R2, 0.0380
+Loop Time, 5:29:12.511000 ,    R2, 0.0380
+Loop Time, 5:29:13.964000 ,    R2, 0.0380
+Loop Time, 5:29:16.152000 ,    R2, 0.0380
+Loop Time, 5:29:18.143000 ,    R2, 0.0380
+Loop Time, 5:29:19.612000 ,    R2, 0.0380
+Loop Time, 5:29:21.723000 ,    R2, 0.0380
+Loop Time, 5:29:24.207000 ,    R2, 0.0380
+Loop Time, 5:29:25.912000 ,    R2, 0.0380
+Loop Time, 5:29:29.443000 ,    R2, 0.0380
+Loop Time, 5:29:31.758000 ,    R2, 0.0252
+Loop Time, 5:29:33.922000 ,    R2, 0.0252
+Loop Time, 5:29:35.361000 ,    R2, 0.0252
+Loop Time, 5:29:37.580000 ,    R2, 0.0252
+Loop Time, 5:29:39.471000 ,    R2, 0.0252
+Loop Time, 5:29:41.660000 ,    R2, 0.0252
+Loop Time, 5:55:50.103000 ,    R1, 0.0039

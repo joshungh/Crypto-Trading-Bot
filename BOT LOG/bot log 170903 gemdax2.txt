@@ -1,0 +1,911 @@
+Saved: 9/3/2017 1024AM
+
+Microsoft Windows [Version 10.0.15063]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\WINDOWS\system32>cd C:\pyfiles
+
+C:\PYFiles>python gemdax2.py
+GDAX & Gemini Arbitrage Trading Bot v1.0
+created 8/31/2017 == christophercoca@gmail.com
+Start Time: 2017-09-02T14:56:34.850000-07:00
+GEMINI, buy, 0.015 , ETH, 0.0011052 BTC --- Rate, ETH/BTC = 0.07368
+GDAX: sold 0.015 ETH for 0.00111105 BTC --- Rate, ETH/BTC = 0.07407
+Traceback (most recent call last):
+  File "gemdax2.py", line 48, in <module>
+    gdax_sell_price = (float(gdax_ask())-0.00001)
+  File "gemdax2.py", line 38, in gdax_ask
+    ticker = public_client.get_product_ticker('ETH-BTC')
+  File "C:\Python27\lib\site-packages\gdax\public_client.py", line 116, in get_product_ticker
+    .format(product_id))
+  File "C:\Python27\lib\site-packages\requests\api.py", line 70, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\api.py", line 56, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 488, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 609, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\adapters.py", line 423, in send
+    timeout=timeout
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 345, in _make_request
+    self._validate_conn(conn)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 844, in _validate_conn
+    conn.connect()
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Python27\lib\ssl.py", line 350, in wrap_socket
+    _context=self)
+  File "C:\Python27\lib\ssl.py", line 566, in __init__
+    self.do_handshake()
+  File "C:\Python27\lib\ssl.py", line 788, in do_handshake
+    self._sslobj.do_handshake()
+KeyboardInterrupt
+
+C:\PYFiles>python gemdax2.py
+  File "gemdax2.py", line 63
+    auth_client.sell(price=gdax_sell_price,
+              ^
+IndentationError: expected an indented block
+
+C:\PYFiles>python gemdax2.py
+GDAX & Gemini Arbitrage Trading Bot v1.0
+created 8/31/2017 == christophercoca@gmail.com
+Start Time: 2017-09-02T15:12:08.433000-07:00
+GEMINI: sold 0.015 ETH for 0.00111855 BTC --- Rate, ETH/BTC = 0.07457
+GDAX: bought 0.015 ETH for 0.0011118 BTC --- Rate, ETH/BTC = 0.07412
+GEMINI: sold 0.015 ETH for 0.0011184 BTC --- Rate, ETH/BTC = 0.07456
+GDAX: bought 0.015 ETH for 0.0011118 BTC --- Rate, ETH/BTC = 0.07412
+GEMINI: sold 0.015 ETH for 0.0011184 BTC --- Rate, ETH/BTC = 0.07456
+GDAX: bought 0.015 ETH for 0.00111195 BTC --- Rate, ETH/BTC = 0.07413
+GEMINI: sold 0.015 ETH for 0.0011184 BTC --- Rate, ETH/BTC = 0.07456
+GDAX: bought 0.015 ETH for 0.0011121 BTC --- Rate, ETH/BTC = 0.07414
+GEMINI: sold 0.015 ETH for 0.0011184 BTC --- Rate, ETH/BTC = 0.07456
+GDAX: bought 0.015 ETH for 0.00111225 BTC --- Rate, ETH/BTC = 0.07415
+GEMINI: sold 0.015 ETH for 0.0011184 BTC --- Rate, ETH/BTC = 0.07456
+GDAX: bought 0.015 ETH for 0.00111225 BTC --- Rate, ETH/BTC = 0.07415
+GEMINI: sold 0.015 ETH for 0.0011184 BTC --- Rate, ETH/BTC = 0.07456
+GDAX: bought 0.015 ETH for 0.00111225 BTC --- Rate, ETH/BTC = 0.07415
+GEMINI: sold 0.015 ETH for 0.00111825 BTC --- Rate, ETH/BTC = 0.07455
+GDAX: bought 0.015 ETH for 0.00111225 BTC --- Rate, ETH/BTC = 0.07415
+GEMINI: sold 0.015 ETH for 0.00112035 BTC --- Rate, ETH/BTC = 0.07469
+GDAX: bought 0.015 ETH for 0.0011145 BTC --- Rate, ETH/BTC = 0.0743
+GEMINI: sold 0.015 ETH for 0.00112035 BTC --- Rate, ETH/BTC = 0.07469
+GDAX: bought 0.015 ETH for 0.0011145 BTC --- Rate, ETH/BTC = 0.0743
+GEMINI: sold 0.015 ETH for 0.00112035 BTC --- Rate, ETH/BTC = 0.07469
+GDAX: bought 0.015 ETH for 0.0011145 BTC --- Rate, ETH/BTC = 0.0743
+GEMINI: sold 0.015 ETH for 0.00112035 BTC --- Rate, ETH/BTC = 0.07469
+GDAX: bought 0.015 ETH for 0.0011145 BTC --- Rate, ETH/BTC = 0.0743
+Traceback (most recent call last):
+  File "gemdax2.py", line 45, in <module>
+    gem_buy_price = (float(gem_bid())+0.00001) # exchange rate in BTC/ETH at which trade is opened
+  File "gemdax2.py", line 26, in gem_bid
+    ticker = requests.get(gem_ticker_url)
+  File "C:\Python27\lib\site-packages\requests\api.py", line 70, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\api.py", line 56, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 488, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 609, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\adapters.py", line 423, in send
+    timeout=timeout
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 345, in _make_request
+    self._validate_conn(conn)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 844, in _validate_conn
+    conn.connect()
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+KeyboardInterrupt
+
+C:\PYFiles>
+C:\PYFiles>python gemdax2.py
+GDAX & Gemini Arbitrage Trading Bot v1.0
+created 8/31/2017 == christophercoca@gmail.com
+Start Time: 2017-09-02T15:18:32.898000-07:00
+GEMINI: sold 0.015 ETH for 0.00112545 BTC --- Rate, ETH/BTC = 0.07503
+GDAX: bought 0.015 ETH for 0.00111975 BTC --- Rate, ETH/BTC = 0.07465
+GEMINI: sold 0.015 ETH for 0.0011253 BTC --- Rate, ETH/BTC = 0.07502
+GDAX: bought 0.015 ETH for 0.00111945 BTC --- Rate, ETH/BTC = 0.07463
+Traceback (most recent call last):
+  File "gemdax2.py", line 46, in <module>
+    gem_sell_price = (float(gem_ask())-0.00001)         # price offset shown in +/- BTC/ETH
+  File "gemdax2.py", line 30, in gem_ask
+    ticker = requests.get(gem_ticker_url)
+  File "C:\Python27\lib\site-packages\requests\api.py", line 70, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\api.py", line 56, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 488, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 609, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\adapters.py", line 423, in send
+    timeout=timeout
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 345, in _make_request
+    self._validate_conn(conn)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 844, in _validate_conn
+    conn.connect()
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Python27\lib\ssl.py", line 350, in wrap_socket
+    _context=self)
+  File "C:\Python27\lib\ssl.py", line 566, in __init__
+    self.do_handshake()
+  File "C:\Python27\lib\ssl.py", line 788, in do_handshake
+    self._sslobj.do_handshake()
+KeyboardInterrupt
+
+C:\PYFiles>
+C:\PYFiles>python gemdax2.py
+GDAX & Gemini Arbitrage Trading Bot v1.0
+created 8/31/2017 == christophercoca@gmail.com
+Start Time: 2017-09-02T15:24:20.473000-07:00
+Traceback (most recent call last):
+  File "gemdax2.py", line 45, in <module>
+    gem_buy_price = (float(gem_bid())+0.00001) # exchange rate in BTC/ETH at which trade is opened
+  File "gemdax2.py", line 26, in gem_bid
+    ticker = requests.get(gem_ticker_url)
+  File "C:\Python27\lib\site-packages\requests\api.py", line 70, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\api.py", line 56, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 488, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 609, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\adapters.py", line 423, in send
+    timeout=timeout
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 345, in _make_request
+    self._validate_conn(conn)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 844, in _validate_conn
+    conn.connect()
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+KeyboardInterrupt
+
+C:\PYFiles>python gemdax2.py
+GDAX & Gemini Arbitrage Trading Bot v1.0
+created 8/31/2017 == christophercoca@gmail.com
+Start Time: 2017-09-02T15:29:24.640000-07:00
+GEMINI: sold 0.015 ETH for 0.001131 BTC --- Rate, ETH/BTC = 0.0754
+GDAX: bought 0.015 ETH for 0.00112515 BTC --- Rate, ETH/BTC = 0.07501
+GEMINI: sold 0.015 ETH for 0.0011316 BTC --- Rate, ETH/BTC = 0.07544
+GDAX: bought 0.015 ETH for 0.00112545 BTC --- Rate, ETH/BTC = 0.07503
+GEMINI: sold 0.015 ETH for 0.00113145 BTC --- Rate, ETH/BTC = 0.07543
+GDAX: bought 0.015 ETH for 0.00112545 BTC --- Rate, ETH/BTC = 0.07503
+Traceback (most recent call last):
+  File "gemdax2.py", line 47, in <module>
+    gdax_buy_price = (float(gdax_bid())+0.00001)
+  File "gemdax2.py", line 34, in gdax_bid
+    ticker = public_client.get_product_ticker('ETH-BTC')
+  File "C:\Python27\lib\site-packages\gdax\public_client.py", line 116, in get_product_ticker
+    .format(product_id))
+  File "C:\Python27\lib\site-packages\requests\api.py", line 70, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\api.py", line 56, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 488, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 609, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\adapters.py", line 423, in send
+    timeout=timeout
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 345, in _make_request
+    self._validate_conn(conn)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 844, in _validate_conn
+    conn.connect()
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Python27\lib\ssl.py", line 350, in wrap_socket
+    _context=self)
+  File "C:\Python27\lib\ssl.py", line 566, in __init__
+    self.do_handshake()
+  File "C:\Python27\lib\ssl.py", line 788, in do_handshake
+    self._sslobj.do_handshake()
+KeyboardInterrupt
+
+C:\PYFiles>python gemdax2.py
+GDAX & Gemini Arbitrage Trading Bot v1.0
+created 8/31/2017 == christophercoca@gmail.com
+Start Time: 2017-09-02T15:46:12.237000-07:00
+GEMINI, buy, 0.015 , ETH, 0.0011307 BTC --- Rate, ETH/BTC = 0.07538
+GEMINI, buy, 0.015 , ETH, 0.0011307 BTC --- Rate, ETH/BTC = 0.07538
+GDAX: sold 0.015 ETH for 0.00113895 BTC --- Rate, ETH/BTC = 0.07593
+GEMINI, buy, 0.015 , ETH, 0.0011313 BTC --- Rate, ETH/BTC = 0.07542
+GEMINI, buy, 0.015 , ETH, 0.0011313 BTC --- Rate, ETH/BTC = 0.07542
+GDAX: sold 0.015 ETH for 0.00113835 BTC --- Rate, ETH/BTC = 0.07589
+GEMINI, buy, 0.015 , ETH, 0.00113175 BTC --- Rate, ETH/BTC = 0.07545
+GEMINI, buy, 0.015 , ETH, 0.00113175 BTC --- Rate, ETH/BTC = 0.07545
+GDAX: sold 0.015 ETH for 0.0011382 BTC --- Rate, ETH/BTC = 0.07588
+GEMINI, buy, 0.015 , ETH, 0.00113235 BTC --- Rate, ETH/BTC = 0.07549
+GEMINI, buy, 0.015 , ETH, 0.00113235 BTC --- Rate, ETH/BTC = 0.07549
+GDAX: sold 0.015 ETH for 0.00113865 BTC --- Rate, ETH/BTC = 0.07591
+GEMINI, buy, 0.015 , ETH, 0.0011274 BTC --- Rate, ETH/BTC = 0.07516
+GEMINI, buy, 0.015 , ETH, 0.0011274 BTC --- Rate, ETH/BTC = 0.07516
+GDAX: sold 0.015 ETH for 0.0011334 BTC --- Rate, ETH/BTC = 0.07556
+GEMINI, buy, 0.015 , ETH, 0.0011256 BTC --- Rate, ETH/BTC = 0.07504
+GEMINI, buy, 0.015 , ETH, 0.0011256 BTC --- Rate, ETH/BTC = 0.07504
+GDAX: sold 0.015 ETH for 0.00113325 BTC --- Rate, ETH/BTC = 0.07555
+GEMINI, buy, 0.015 , ETH, 0.0011265 BTC --- Rate, ETH/BTC = 0.0751
+GEMINI, buy, 0.015 , ETH, 0.0011265 BTC --- Rate, ETH/BTC = 0.0751
+GDAX: sold 0.015 ETH for 0.0011331 BTC --- Rate, ETH/BTC = 0.07554
+GEMINI, buy, 0.015 , ETH, 0.001122 BTC --- Rate, ETH/BTC = 0.0748
+GEMINI, buy, 0.015 , ETH, 0.001122 BTC --- Rate, ETH/BTC = 0.0748
+GDAX: sold 0.015 ETH for 0.0011325 BTC --- Rate, ETH/BTC = 0.0755
+GEMINI, buy, 0.015 , ETH, 0.00112365 BTC --- Rate, ETH/BTC = 0.07491
+GEMINI, buy, 0.015 , ETH, 0.00112365 BTC --- Rate, ETH/BTC = 0.07491
+GDAX: sold 0.015 ETH for 0.00113235 BTC --- Rate, ETH/BTC = 0.07549
+GEMINI, buy, 0.015 , ETH, 0.0011244 BTC --- Rate, ETH/BTC = 0.07496
+GEMINI, buy, 0.015 , ETH, 0.0011244 BTC --- Rate, ETH/BTC = 0.07496
+GDAX: sold 0.015 ETH for 0.00113205 BTC --- Rate, ETH/BTC = 0.07547
+GEMINI, buy, 0.015 , ETH, 0.0011262 BTC --- Rate, ETH/BTC = 0.07508
+GEMINI, buy, 0.015 , ETH, 0.0011262 BTC --- Rate, ETH/BTC = 0.07508
+GDAX: sold 0.015 ETH for 0.00113205 BTC --- Rate, ETH/BTC = 0.07547
+GEMINI: sold 0.015 ETH for 0.00113685 BTC --- Rate, ETH/BTC = 0.07579
+GEMINI: sold 0.015 ETH for 0.00113685 BTC --- Rate, ETH/BTC = 0.07579
+GDAX: bought 0.015 ETH for 0.0011304 BTC --- Rate, ETH/BTC = 0.07536
+GEMINI: sold 0.015 ETH for 0.0011376 BTC --- Rate, ETH/BTC = 0.07584
+GEMINI: sold 0.015 ETH for 0.0011376 BTC --- Rate, ETH/BTC = 0.07584
+GDAX: bought 0.015 ETH for 0.00113085 BTC --- Rate, ETH/BTC = 0.07539
+GEMINI, buy, 0.015 , ETH, 0.00112635 BTC --- Rate, ETH/BTC = 0.07509
+GEMINI, buy, 0.015 , ETH, 0.00112635 BTC --- Rate, ETH/BTC = 0.07509
+GDAX: sold 0.015 ETH for 0.00113205 BTC --- Rate, ETH/BTC = 0.07547
+GEMINI, buy, 0.015 , ETH, 0.00112635 BTC --- Rate, ETH/BTC = 0.07509
+GEMINI, buy, 0.015 , ETH, 0.00112635 BTC --- Rate, ETH/BTC = 0.07509
+GDAX: sold 0.015 ETH for 0.00113205 BTC --- Rate, ETH/BTC = 0.07547
+GEMINI, buy, 0.015 , ETH, 0.00112665 BTC --- Rate, ETH/BTC = 0.07511
+GEMINI, buy, 0.015 , ETH, 0.00112665 BTC --- Rate, ETH/BTC = 0.07511
+GDAX: sold 0.015 ETH for 0.00113235 BTC --- Rate, ETH/BTC = 0.07549
+GEMINI, buy, 0.015 , ETH, 0.00112365 BTC --- Rate, ETH/BTC = 0.07491
+GEMINI, buy, 0.015 , ETH, 0.00112365 BTC --- Rate, ETH/BTC = 0.07491
+GDAX: sold 0.015 ETH for 0.0011301 BTC --- Rate, ETH/BTC = 0.07534
+GEMINI, buy, 0.015 , ETH, 0.00112335 BTC --- Rate, ETH/BTC = 0.07489
+GEMINI, buy, 0.015 , ETH, 0.00112335 BTC --- Rate, ETH/BTC = 0.07489
+GDAX: sold 0.015 ETH for 0.0011298 BTC --- Rate, ETH/BTC = 0.07532
+GEMINI, buy, 0.015 , ETH, 0.00112395 BTC --- Rate, ETH/BTC = 0.07493
+GEMINI, buy, 0.015 , ETH, 0.00112395 BTC --- Rate, ETH/BTC = 0.07493
+GDAX: sold 0.015 ETH for 0.00112965 BTC --- Rate, ETH/BTC = 0.07531
+GEMINI: sold 0.015 ETH for 0.00113745 BTC --- Rate, ETH/BTC = 0.07583
+GEMINI: sold 0.015 ETH for 0.00113745 BTC --- Rate, ETH/BTC = 0.07583
+GDAX: bought 0.015 ETH for 0.001131 BTC --- Rate, ETH/BTC = 0.0754
+GEMINI: sold 0.015 ETH for 0.00113805 BTC --- Rate, ETH/BTC = 0.07587
+GEMINI: sold 0.015 ETH for 0.00113805 BTC --- Rate, ETH/BTC = 0.07587
+GDAX: bought 0.015 ETH for 0.001131 BTC --- Rate, ETH/BTC = 0.0754
+GEMINI, buy, 0.015 , ETH, 0.0011292 BTC --- Rate, ETH/BTC = 0.07528
+GEMINI, buy, 0.015 , ETH, 0.0011292 BTC --- Rate, ETH/BTC = 0.07528
+GDAX: sold 0.015 ETH for 0.00113565 BTC --- Rate, ETH/BTC = 0.07571
+GEMINI, buy, 0.015 , ETH, 0.0011298 BTC --- Rate, ETH/BTC = 0.07532
+GEMINI, buy, 0.015 , ETH, 0.0011298 BTC --- Rate, ETH/BTC = 0.07532
+GDAX: sold 0.015 ETH for 0.00113565 BTC --- Rate, ETH/BTC = 0.07571
+Traceback (most recent call last):
+  File "gemdax2.py", line 46, in <module>
+    gem_sell_price = (float(gem_ask())-0.00001)         # price offset shown in +/- BTC/ETH
+  File "gemdax2.py", line 30, in gem_ask
+    ticker = requests.get(gem_ticker_url)
+  File "C:\Python27\lib\site-packages\requests\api.py", line 70, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\api.py", line 56, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 488, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 609, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\adapters.py", line 423, in send
+    timeout=timeout
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 379, in _make_request
+    httplib_response = conn.getresponse(buffering=True)
+  File "C:\Python27\lib\httplib.py", line 1074, in getresponse
+    response.begin()
+  File "C:\Python27\lib\httplib.py", line 415, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python27\lib\httplib.py", line 371, in _read_status
+    line = self.fp.readline(_MAXLINE + 1)
+  File "C:\Python27\lib\socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+  File "C:\Python27\lib\ssl.py", line 714, in recv
+    return self.read(buflen)
+  File "C:\Python27\lib\ssl.py", line 608, in read
+    v = self._sslobj.read(len or 1024)
+KeyboardInterrupt
+
+C:\PYFiles>python gemdax2.py
+GDAX & Gemini Arbitrage Trading Bot v1.0
+created 8/31/2017 == christophercoca@gmail.com
+Start Time: 2017-09-02T16:21:03.274000-07:00
+Traceback (most recent call last):
+  File "gemdax2.py", line 46, in <module>
+    gem_sell_price = (float(gem_ask())-0.00001)         # price offset shown in +/- BTC/ETH
+  File "gemdax2.py", line 30, in gem_ask
+    ticker = requests.get(gem_ticker_url)
+  File "C:\Python27\lib\site-packages\requests\api.py", line 70, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\api.py", line 56, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 488, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 609, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\adapters.py", line 423, in send
+    timeout=timeout
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 379, in _make_request
+    httplib_response = conn.getresponse(buffering=True)
+  File "C:\Python27\lib\httplib.py", line 1074, in getresponse
+    response.begin()
+  File "C:\Python27\lib\httplib.py", line 415, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python27\lib\httplib.py", line 371, in _read_status
+    line = self.fp.readline(_MAXLINE + 1)
+  File "C:\Python27\lib\socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+  File "C:\Python27\lib\ssl.py", line 714, in recv
+    return self.read(buflen)
+  File "C:\Python27\lib\ssl.py", line 608, in read
+    v = self._sslobj.read(len or 1024)
+KeyboardInterrupt
+
+C:\PYFiles>python gemdax2.py
+GDAX & Gemini Arbitrage Trading Bot v1.2
+created 9/1/2017 == christophercoca@gmail.com
+Start Time: 2017-09-02T16:21:35.088000-07:00
+Traceback (most recent call last):
+  File "gemdax2.py", line 99, in <module>
+    time.sleep(0.3)
+KeyboardInterrupt
+
+C:\PYFiles>python gemdax2.py
+GDAX & Gemini Arbitrage Trading Bot v1.2
+created 9/1/2017 == christophercoca@gmail.com
+Start Time: 2017-09-02T16:56:24.157000-07:00
+Traceback (most recent call last):
+  File "gemdax2.py", line 46, in <module>
+    gem_sell_price = (float(gem_ask())-0.00001)         # price offset shown in +/- BTC/ETH
+  File "gemdax2.py", line 30, in gem_ask
+    ticker = requests.get(gem_ticker_url)
+  File "C:\Python27\lib\site-packages\requests\api.py", line 70, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\api.py", line 56, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 488, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 609, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\adapters.py", line 423, in send
+    timeout=timeout
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 345, in _make_request
+    self._validate_conn(conn)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 844, in _validate_conn
+    conn.connect()
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Python27\lib\ssl.py", line 350, in wrap_socket
+    _context=self)
+  File "C:\Python27\lib\ssl.py", line 566, in __init__
+    self.do_handshake()
+  File "C:\Python27\lib\ssl.py", line 788, in do_handshake
+    self._sslobj.do_handshake()
+KeyboardInterrupt
+
+C:\PYFiles>python gemdax2.py
+GDAX & Gemini Arbitrage Trading Bot v1.2
+created 9/1/2017 == christophercoca@gmail.com
+Start Time: 2017-09-02T17:01:22.630000-07:00
+Traceback (most recent call last):
+  File "gemdax2.py", line 45, in <module>
+    gem_buy_price = (float(gem_bid())+0.00001) # exchange rate in BTC/ETH at which trade is opened
+  File "gemdax2.py", line 26, in gem_bid
+    ticker = requests.get(gem_ticker_url)
+  File "C:\Python27\lib\site-packages\requests\api.py", line 70, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\api.py", line 56, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 488, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 609, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\adapters.py", line 423, in send
+    timeout=timeout
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 345, in _make_request
+    self._validate_conn(conn)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 844, in _validate_conn
+    conn.connect()
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Python27\lib\ssl.py", line 350, in wrap_socket
+    _context=self)
+  File "C:\Python27\lib\ssl.py", line 566, in __init__
+    self.do_handshake()
+  File "C:\Python27\lib\ssl.py", line 788, in do_handshake
+    self._sslobj.do_handshake()
+KeyboardInterrupt
+
+C:\PYFiles>python gemdax2.py
+GDAX & Gemini Arbitrage Trading Bot v1.2
+created 9/1/2017 == christophercoca@gmail.com
+Start Time: 2017-09-02T17:10:46.630000-07:00
+GEMINI, buy, 0.015 , ETH, 0.00114495 BTC --- Rate, ETH/BTC = 0.07633
+GEMINI, buy, 0.015 , ETH, 0.00114495 BTC --- Rate, ETH/BTC = 0.07633
+GEMINI, buy, 0.015 , ETH, 0.00114495 BTC --- Rate, ETH/BTC = 0.07633
+GDAX: sold 0.015 ETH for 0.0011511 BTC --- Rate, ETH/BTC = 0.07674
+GEMINI, buy, 0.015 , ETH, 0.0011397 BTC --- Rate, ETH/BTC = 0.07598
+GEMINI, buy, 0.015 , ETH, 0.0011397 BTC --- Rate, ETH/BTC = 0.07598
+GEMINI, buy, 0.015 , ETH, 0.0011397 BTC --- Rate, ETH/BTC = 0.07598
+GDAX: sold 0.015 ETH for 0.0011478 BTC --- Rate, ETH/BTC = 0.07652
+GEMINI, buy, 0.015 , ETH, 0.0011406 BTC --- Rate, ETH/BTC = 0.07604
+GEMINI, buy, 0.015 , ETH, 0.0011406 BTC --- Rate, ETH/BTC = 0.07604
+GEMINI, buy, 0.015 , ETH, 0.0011406 BTC --- Rate, ETH/BTC = 0.07604
+GDAX: sold 0.015 ETH for 0.0011478 BTC --- Rate, ETH/BTC = 0.07652
+GEMINI, buy, 0.015 , ETH, 0.00114075 BTC --- Rate, ETH/BTC = 0.07605
+GEMINI, buy, 0.015 , ETH, 0.00114075 BTC --- Rate, ETH/BTC = 0.07605
+GEMINI, buy, 0.015 , ETH, 0.00114075 BTC --- Rate, ETH/BTC = 0.07605
+GDAX: sold 0.015 ETH for 0.0011478 BTC --- Rate, ETH/BTC = 0.07652
+Traceback (most recent call last):
+  File "gemdax2.py", line 47, in <module>
+    gdax_buy_price = (float(gdax_bid())+0.00001)
+  File "gemdax2.py", line 34, in gdax_bid
+    ticker = public_client.get_product_ticker('ETH-BTC')
+  File "C:\Python27\lib\site-packages\gdax\public_client.py", line 116, in get_product_ticker
+    .format(product_id))
+  File "C:\Python27\lib\site-packages\requests\api.py", line 70, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\api.py", line 56, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 488, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 609, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\adapters.py", line 423, in send
+    timeout=timeout
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 379, in _make_request
+    httplib_response = conn.getresponse(buffering=True)
+  File "C:\Python27\lib\httplib.py", line 1074, in getresponse
+    response.begin()
+  File "C:\Python27\lib\httplib.py", line 415, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python27\lib\httplib.py", line 371, in _read_status
+    line = self.fp.readline(_MAXLINE + 1)
+  File "C:\Python27\lib\socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+  File "C:\Python27\lib\ssl.py", line 714, in recv
+    return self.read(buflen)
+  File "C:\Python27\lib\ssl.py", line 608, in read
+    v = self._sslobj.read(len or 1024)
+KeyboardInterrupt
+
+C:\PYFiles>python gemdax2.py
+GDAX & Gemini Arbitrage Trading Bot v1.2
+created 9/1/2017 == christophercoca@gmail.com
+Start Time: 2017-09-02T17:23:29.647000-07:00
+Traceback (most recent call last):
+  File "gemdax2.py", line 47, in <module>
+    gdax_buy_price = (float(gdax_bid())+0.00001)
+  File "gemdax2.py", line 34, in gdax_bid
+    ticker = public_client.get_product_ticker('ETH-BTC')
+  File "C:\Python27\lib\site-packages\gdax\public_client.py", line 116, in get_product_ticker
+    .format(product_id))
+  File "C:\Python27\lib\site-packages\requests\api.py", line 70, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\api.py", line 56, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 488, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 609, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\adapters.py", line 423, in send
+    timeout=timeout
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 379, in _make_request
+    httplib_response = conn.getresponse(buffering=True)
+  File "C:\Python27\lib\httplib.py", line 1074, in getresponse
+    response.begin()
+  File "C:\Python27\lib\httplib.py", line 415, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python27\lib\httplib.py", line 371, in _read_status
+    line = self.fp.readline(_MAXLINE + 1)
+  File "C:\Python27\lib\socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+  File "C:\Python27\lib\ssl.py", line 714, in recv
+    return self.read(buflen)
+  File "C:\Python27\lib\ssl.py", line 608, in read
+    v = self._sslobj.read(len or 1024)
+KeyboardInterrupt
+
+C:\PYFiles>python gemdax2.py
+GDAX & Gemini Arbitrage Trading Bot v1.2
+created 9/1/2017 == christophercoca@gmail.com
+Start Time: 2017-09-02T17:29:24.069000-07:00
+GEMINI, buy, 0.01 , ETH, 0.0007606 BTC --- Rate, ETH/BTC = 0.07606
+GEMINI, buy, 0.01 , ETH, 0.0007606 BTC --- Rate, ETH/BTC = 0.07606
+GEMINI, buy, 0.01 , ETH, 0.0007606 BTC --- Rate, ETH/BTC = 0.07606
+GDAX: sold 0.01 ETH for 0.0007648 BTC --- Rate, ETH/BTC = 0.07648
+GEMINI, buy, 0.01 , ETH, 0.0007608 BTC --- Rate, ETH/BTC = 0.07608
+GEMINI, buy, 0.01 , ETH, 0.0007608 BTC --- Rate, ETH/BTC = 0.07608
+GEMINI, buy, 0.01 , ETH, 0.0007608 BTC --- Rate, ETH/BTC = 0.07608
+GDAX: sold 0.01 ETH for 0.0007654 BTC --- Rate, ETH/BTC = 0.07654
+GEMINI, buy, 0.01 , ETH, 0.0007615 BTC --- Rate, ETH/BTC = 0.07615
+GEMINI, buy, 0.01 , ETH, 0.0007615 BTC --- Rate, ETH/BTC = 0.07615
+GEMINI, buy, 0.01 , ETH, 0.0007615 BTC --- Rate, ETH/BTC = 0.07615
+GDAX: sold 0.01 ETH for 0.0007654 BTC --- Rate, ETH/BTC = 0.07654
+Traceback (most recent call last):
+  File "gemdax2.py", line 99, in <module>
+    gdax_buy_order()
+KeyboardInterrupt
+
+C:\PYFiles>python gemdax2.py
+GDAX & Gemini Arbitrage Trading Bot v1.2
+created 9/1/2017 == christophercoca@gmail.com
+Start Time: 2017-09-02T18:17:56.248000-07:00
+GEMINI, buy, 0.01 , ETH, 0.0007619 BTC --- Rate, ETH/BTC = 0.07619
+GEMINI, buy, 0.01 , ETH, 0.0007619 BTC --- Rate, ETH/BTC = 0.07619
+GEMINI, buy, 0.01 , ETH, 0.0007619 BTC --- Rate, ETH/BTC = 0.07619
+GDAX: sold 0.01 ETH for 0.0007658 BTC --- Rate, ETH/BTC = 0.07658
+Traceback (most recent call last):
+  File "gemdax2.py", line 49, in <module>
+    gdax_sell_price = (float(gdax_ask()))
+  File "gemdax2.py", line 38, in gdax_ask
+    ticker = public_client.get_product_ticker('ETH-BTC')
+  File "C:\Python27\lib\site-packages\gdax\public_client.py", line 116, in get_product_ticker
+    .format(product_id))
+  File "C:\Python27\lib\site-packages\requests\api.py", line 70, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\api.py", line 56, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 488, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 609, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\adapters.py", line 423, in send
+    timeout=timeout
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 379, in _make_request
+    httplib_response = conn.getresponse(buffering=True)
+  File "C:\Python27\lib\httplib.py", line 1074, in getresponse
+    response.begin()
+  File "C:\Python27\lib\httplib.py", line 415, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python27\lib\httplib.py", line 371, in _read_status
+    line = self.fp.readline(_MAXLINE + 1)
+  File "C:\Python27\lib\socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+  File "C:\Python27\lib\ssl.py", line 714, in recv
+    return self.read(buflen)
+  File "C:\Python27\lib\ssl.py", line 608, in read
+    v = self._sslobj.read(len or 1024)
+KeyboardInterrupt
+
+C:\PYFiles>python gemdax2.py
+GDAX & Gemini Arbitrage Trading Bot v1.2
+created 9/1/2017 == christophercoca@gmail.com
+Start Time: 2017-09-02T18:35:50.955000-07:00
+Traceback (most recent call last):
+  File "gemdax2.py", line 104, in <module>
+    time.sleep(0.2)
+KeyboardInterrupt
+
+C:\PYFiles>python gemdax2.py
+GDAX & Gemini Arbitrage Trading Bot v1.2
+created 9/1/2017 == christophercoca@gmail.com
+Start Time: 2017-09-02T18:59:19.597000-07:00
+GEMINI: sold 0.01 ETH for 0.0007651 BTC --- Rate, ETH/BTC = 0.07651
+GEMINI: sold 0.01 ETH for 0.0007651 BTC --- Rate, ETH/BTC = 0.07651
+GEMINI: sold 0.01 ETH for 0.0007651 BTC --- Rate, ETH/BTC = 0.07651
+GDAX: bought 0.01 ETH for 0.0007612 BTC --- Rate, ETH/BTC = 0.07612
+GEMINI: sold 0.01 ETH for 0.0007699 BTC --- Rate, ETH/BTC = 0.07699
+GEMINI: sold 0.01 ETH for 0.0007699 BTC --- Rate, ETH/BTC = 0.07699
+GEMINI: sold 0.01 ETH for 0.0007699 BTC --- Rate, ETH/BTC = 0.07699
+GDAX: bought 0.01 ETH for 0.0007659 BTC --- Rate, ETH/BTC = 0.07659
+GEMINI: sold 0.01 ETH for 0.0007744 BTC --- Rate, ETH/BTC = 0.07744
+GEMINI: sold 0.01 ETH for 0.0007744 BTC --- Rate, ETH/BTC = 0.07744
+GEMINI: sold 0.01 ETH for 0.0007744 BTC --- Rate, ETH/BTC = 0.07744
+GDAX: bought 0.01 ETH for 0.0007701 BTC --- Rate, ETH/BTC = 0.07701
+GEMINI: sold 0.01 ETH for 0.000774 BTC --- Rate, ETH/BTC = 0.0774
+GEMINI: sold 0.01 ETH for 0.000774 BTC --- Rate, ETH/BTC = 0.0774
+GEMINI: sold 0.01 ETH for 0.000774 BTC --- Rate, ETH/BTC = 0.0774
+GDAX: bought 0.01 ETH for 0.0007701 BTC --- Rate, ETH/BTC = 0.07701
+GEMINI: sold 0.01 ETH for 0.0007846 BTC --- Rate, ETH/BTC = 0.07846
+GEMINI: sold 0.01 ETH for 0.0007846 BTC --- Rate, ETH/BTC = 0.07846
+GEMINI: sold 0.01 ETH for 0.0007846 BTC --- Rate, ETH/BTC = 0.07846
+GDAX: bought 0.01 ETH for 0.0007792 BTC --- Rate, ETH/BTC = 0.07792
+GEMINI: sold 0.01 ETH for 0.0007842 BTC --- Rate, ETH/BTC = 0.07842
+GEMINI: sold 0.01 ETH for 0.0007842 BTC --- Rate, ETH/BTC = 0.07842
+GEMINI: sold 0.01 ETH for 0.0007842 BTC --- Rate, ETH/BTC = 0.07842
+GDAX: bought 0.01 ETH for 0.0007792 BTC --- Rate, ETH/BTC = 0.07792
+GEMINI: sold 0.01 ETH for 0.0007831 BTC --- Rate, ETH/BTC = 0.07831
+GEMINI: sold 0.01 ETH for 0.0007831 BTC --- Rate, ETH/BTC = 0.07831
+GEMINI: sold 0.01 ETH for 0.0007831 BTC --- Rate, ETH/BTC = 0.07831
+GDAX: bought 0.01 ETH for 0.0007792 BTC --- Rate, ETH/BTC = 0.07792
+GEMINI, buy, 0.01 , ETH, 0.0007785 BTC --- Rate, ETH/BTC = 0.07785
+GEMINI, buy, 0.01 , ETH, 0.0007785 BTC --- Rate, ETH/BTC = 0.07785
+GEMINI, buy, 0.01 , ETH, 0.0007785 BTC --- Rate, ETH/BTC = 0.07785
+GDAX: sold 0.01 ETH for 0.0007828 BTC --- Rate, ETH/BTC = 0.07828
+GEMINI, buy, 0.01 , ETH, 0.0007789 BTC --- Rate, ETH/BTC = 0.07789
+GEMINI, buy, 0.01 , ETH, 0.0007789 BTC --- Rate, ETH/BTC = 0.07789
+GEMINI, buy, 0.01 , ETH, 0.0007789 BTC --- Rate, ETH/BTC = 0.07789
+GDAX: sold 0.01 ETH for 0.0007828 BTC --- Rate, ETH/BTC = 0.07828
+GEMINI, buy, 0.01 , ETH, 0.0007749 BTC --- Rate, ETH/BTC = 0.07749
+GEMINI, buy, 0.01 , ETH, 0.0007749 BTC --- Rate, ETH/BTC = 0.07749
+GEMINI, buy, 0.01 , ETH, 0.0007749 BTC --- Rate, ETH/BTC = 0.07749
+GDAX: sold 0.01 ETH for 0.0007789 BTC --- Rate, ETH/BTC = 0.07789
+GEMINI, buy, 0.01 , ETH, 0.0007712 BTC --- Rate, ETH/BTC = 0.07712
+GEMINI, buy, 0.01 , ETH, 0.0007712 BTC --- Rate, ETH/BTC = 0.07712
+GEMINI, buy, 0.01 , ETH, 0.0007712 BTC --- Rate, ETH/BTC = 0.07712
+GDAX: sold 0.01 ETH for 0.0007773 BTC --- Rate, ETH/BTC = 0.07773
+GEMINI, buy, 0.01 , ETH, 0.0007716 BTC --- Rate, ETH/BTC = 0.07716
+GEMINI, buy, 0.01 , ETH, 0.0007716 BTC --- Rate, ETH/BTC = 0.07716
+GEMINI, buy, 0.01 , ETH, 0.0007716 BTC --- Rate, ETH/BTC = 0.07716
+GDAX: sold 0.01 ETH for 0.0007773 BTC --- Rate, ETH/BTC = 0.07773
+GEMINI, buy, 0.01 , ETH, 0.0007716 BTC --- Rate, ETH/BTC = 0.07716
+GEMINI, buy, 0.01 , ETH, 0.0007716 BTC --- Rate, ETH/BTC = 0.07716
+GEMINI, buy, 0.01 , ETH, 0.0007716 BTC --- Rate, ETH/BTC = 0.07716
+GDAX: sold 0.01 ETH for 0.0007773 BTC --- Rate, ETH/BTC = 0.07773
+GEMINI, buy, 0.01 , ETH, 0.0007718 BTC --- Rate, ETH/BTC = 0.07718
+GEMINI, buy, 0.01 , ETH, 0.0007718 BTC --- Rate, ETH/BTC = 0.07718
+GEMINI, buy, 0.01 , ETH, 0.0007718 BTC --- Rate, ETH/BTC = 0.07718
+GDAX: sold 0.01 ETH for 0.0007773 BTC --- Rate, ETH/BTC = 0.07773
+GEMINI, buy, 0.01 , ETH, 0.0007723 BTC --- Rate, ETH/BTC = 0.07723
+GEMINI, buy, 0.01 , ETH, 0.0007723 BTC --- Rate, ETH/BTC = 0.07723
+GEMINI, buy, 0.01 , ETH, 0.0007723 BTC --- Rate, ETH/BTC = 0.07723
+GDAX: sold 0.01 ETH for 0.0007773 BTC --- Rate, ETH/BTC = 0.07773
+GEMINI, buy, 0.01 , ETH, 0.0007728 BTC --- Rate, ETH/BTC = 0.07728
+GEMINI, buy, 0.01 , ETH, 0.0007728 BTC --- Rate, ETH/BTC = 0.07728
+GEMINI, buy, 0.01 , ETH, 0.0007728 BTC --- Rate, ETH/BTC = 0.07728
+GDAX: sold 0.01 ETH for 0.0007773 BTC --- Rate, ETH/BTC = 0.07773
+GEMINI: sold 0.01 ETH for 0.0007786 BTC --- Rate, ETH/BTC = 0.07786
+GEMINI: sold 0.01 ETH for 0.0007786 BTC --- Rate, ETH/BTC = 0.07786
+GEMINI: sold 0.01 ETH for 0.0007786 BTC --- Rate, ETH/BTC = 0.07786
+GDAX: bought 0.01 ETH for 0.0007747 BTC --- Rate, ETH/BTC = 0.07747
+GEMINI, buy, 0.01 , ETH, 0.0007665 BTC --- Rate, ETH/BTC = 0.07665
+GEMINI, buy, 0.01 , ETH, 0.0007665 BTC --- Rate, ETH/BTC = 0.07665
+GEMINI, buy, 0.01 , ETH, 0.0007665 BTC --- Rate, ETH/BTC = 0.07665
+GDAX: sold 0.01 ETH for 0.0007731 BTC --- Rate, ETH/BTC = 0.07731
+GEMINI, buy, 0.01 , ETH, 0.0007673 BTC --- Rate, ETH/BTC = 0.07673
+GEMINI, buy, 0.01 , ETH, 0.0007673 BTC --- Rate, ETH/BTC = 0.07673
+GEMINI, buy, 0.01 , ETH, 0.0007673 BTC --- Rate, ETH/BTC = 0.07673
+GDAX: sold 0.01 ETH for 0.0007718 BTC --- Rate, ETH/BTC = 0.07718
+GEMINI, buy, 0.01 , ETH, 0.0007674 BTC --- Rate, ETH/BTC = 0.07674
+GEMINI, buy, 0.01 , ETH, 0.0007674 BTC --- Rate, ETH/BTC = 0.07674
+GEMINI, buy, 0.01 , ETH, 0.0007674 BTC --- Rate, ETH/BTC = 0.07674
+GDAX: sold 0.01 ETH for 0.0007718 BTC --- Rate, ETH/BTC = 0.07718
+GEMINI, buy, 0.01 , ETH, 0.0007678 BTC --- Rate, ETH/BTC = 0.07678
+GEMINI, buy, 0.01 , ETH, 0.0007678 BTC --- Rate, ETH/BTC = 0.07678
+GEMINI, buy, 0.01 , ETH, 0.0007678 BTC --- Rate, ETH/BTC = 0.07678
+GDAX: sold 0.01 ETH for 0.0007718 BTC --- Rate, ETH/BTC = 0.07718
+GEMINI: sold 0.01 ETH for 0.0007737 BTC --- Rate, ETH/BTC = 0.07737
+GEMINI: sold 0.01 ETH for 0.0007737 BTC --- Rate, ETH/BTC = 0.07737
+GEMINI: sold 0.01 ETH for 0.0007737 BTC --- Rate, ETH/BTC = 0.07737
+GDAX: bought 0.01 ETH for 0.0007697 BTC --- Rate, ETH/BTC = 0.07697
+GEMINI: sold 0.01 ETH for 0.0007766 BTC --- Rate, ETH/BTC = 0.07766
+GEMINI: sold 0.01 ETH for 0.0007766 BTC --- Rate, ETH/BTC = 0.07766
+GEMINI: sold 0.01 ETH for 0.0007766 BTC --- Rate, ETH/BTC = 0.07766
+GDAX: bought 0.01 ETH for 0.0007726 BTC --- Rate, ETH/BTC = 0.07726
+GEMINI, buy, 0.01 , ETH, 0.0007685 BTC --- Rate, ETH/BTC = 0.07685
+GEMINI, buy, 0.01 , ETH, 0.0007685 BTC --- Rate, ETH/BTC = 0.07685
+GEMINI, buy, 0.01 , ETH, 0.0007685 BTC --- Rate, ETH/BTC = 0.07685
+GDAX: sold 0.01 ETH for 0.000773 BTC --- Rate, ETH/BTC = 0.0773
+GEMINI: sold 0.01 ETH for 0.0007764 BTC --- Rate, ETH/BTC = 0.07764
+GEMINI: sold 0.01 ETH for 0.0007764 BTC --- Rate, ETH/BTC = 0.07764
+GEMINI: sold 0.01 ETH for 0.0007764 BTC --- Rate, ETH/BTC = 0.07764
+GDAX: bought 0.01 ETH for 0.0007715 BTC --- Rate, ETH/BTC = 0.07715
+GEMINI, buy, 0.01 , ETH, 0.0007715 BTC --- Rate, ETH/BTC = 0.07715
+GEMINI, buy, 0.01 , ETH, 0.0007715 BTC --- Rate, ETH/BTC = 0.07715
+GEMINI, buy, 0.01 , ETH, 0.0007715 BTC --- Rate, ETH/BTC = 0.07715
+GDAX: sold 0.01 ETH for 0.000776 BTC --- Rate, ETH/BTC = 0.0776
+GEMINI, buy, 0.01 , ETH, 0.0007716 BTC --- Rate, ETH/BTC = 0.07716
+GEMINI, buy, 0.01 , ETH, 0.0007716 BTC --- Rate, ETH/BTC = 0.07716
+GEMINI, buy, 0.01 , ETH, 0.0007716 BTC --- Rate, ETH/BTC = 0.07716
+GDAX: sold 0.01 ETH for 0.000776 BTC --- Rate, ETH/BTC = 0.0776
+GEMINI, buy, 0.01 , ETH, 0.0007718 BTC --- Rate, ETH/BTC = 0.07718
+GEMINI, buy, 0.01 , ETH, 0.0007718 BTC --- Rate, ETH/BTC = 0.07718
+GEMINI, buy, 0.01 , ETH, 0.0007718 BTC --- Rate, ETH/BTC = 0.07718
+GDAX: sold 0.01 ETH for 0.000776 BTC --- Rate, ETH/BTC = 0.0776
+GEMINI, buy, 0.01 , ETH, 0.000772 BTC --- Rate, ETH/BTC = 0.0772
+GEMINI, buy, 0.01 , ETH, 0.000772 BTC --- Rate, ETH/BTC = 0.0772
+GEMINI, buy, 0.01 , ETH, 0.000772 BTC --- Rate, ETH/BTC = 0.0772
+GDAX: sold 0.01 ETH for 0.000776 BTC --- Rate, ETH/BTC = 0.0776
+GEMINI, buy, 0.01 , ETH, 0.0007721 BTC --- Rate, ETH/BTC = 0.07721
+GEMINI, buy, 0.01 , ETH, 0.0007721 BTC --- Rate, ETH/BTC = 0.07721
+GEMINI, buy, 0.01 , ETH, 0.0007721 BTC --- Rate, ETH/BTC = 0.07721
+GDAX: sold 0.01 ETH for 0.000776 BTC --- Rate, ETH/BTC = 0.0776
+GEMINI, buy, 0.01 , ETH, 0.0007721 BTC --- Rate, ETH/BTC = 0.07721
+GEMINI, buy, 0.01 , ETH, 0.0007721 BTC --- Rate, ETH/BTC = 0.07721
+GEMINI, buy, 0.01 , ETH, 0.0007721 BTC --- Rate, ETH/BTC = 0.07721
+GDAX: sold 0.01 ETH for 0.000776 BTC --- Rate, ETH/BTC = 0.0776
+GEMINI, buy, 0.01 , ETH, 0.0007721 BTC --- Rate, ETH/BTC = 0.07721
+GEMINI, buy, 0.01 , ETH, 0.0007721 BTC --- Rate, ETH/BTC = 0.07721
+GEMINI, buy, 0.01 , ETH, 0.0007721 BTC --- Rate, ETH/BTC = 0.07721
+GDAX: sold 0.01 ETH for 0.000776 BTC --- Rate, ETH/BTC = 0.0776
+GEMINI: sold 0.01 ETH for 0.0007675 BTC --- Rate, ETH/BTC = 0.07675
+GEMINI: sold 0.01 ETH for 0.0007675 BTC --- Rate, ETH/BTC = 0.07675
+GEMINI: sold 0.01 ETH for 0.0007675 BTC --- Rate, ETH/BTC = 0.07675
+GDAX: bought 0.01 ETH for 0.0007629 BTC --- Rate, ETH/BTC = 0.07629
+GEMINI: sold 0.01 ETH for 0.0007671 BTC --- Rate, ETH/BTC = 0.07671
+GEMINI: sold 0.01 ETH for 0.0007671 BTC --- Rate, ETH/BTC = 0.07671
+GEMINI: sold 0.01 ETH for 0.0007671 BTC --- Rate, ETH/BTC = 0.07671
+GDAX: bought 0.01 ETH for 0.000763 BTC --- Rate, ETH/BTC = 0.0763
+GEMINI: sold 0.01 ETH for 0.0007778 BTC --- Rate, ETH/BTC = 0.07778
+GEMINI: sold 0.01 ETH for 0.0007778 BTC --- Rate, ETH/BTC = 0.07778
+GEMINI: sold 0.01 ETH for 0.0007778 BTC --- Rate, ETH/BTC = 0.07778
+GDAX: bought 0.01 ETH for 0.0007654 BTC --- Rate, ETH/BTC = 0.07654
+GEMINI: sold 0.01 ETH for 0.000777 BTC --- Rate, ETH/BTC = 0.0777
+GEMINI: sold 0.01 ETH for 0.000777 BTC --- Rate, ETH/BTC = 0.0777
+GEMINI: sold 0.01 ETH for 0.000777 BTC --- Rate, ETH/BTC = 0.0777
+GDAX: bought 0.01 ETH for 0.0007656 BTC --- Rate, ETH/BTC = 0.07656
+GEMINI: sold 0.01 ETH for 0.0007764 BTC --- Rate, ETH/BTC = 0.07764
+GEMINI: sold 0.01 ETH for 0.0007764 BTC --- Rate, ETH/BTC = 0.07764
+GEMINI: sold 0.01 ETH for 0.0007764 BTC --- Rate, ETH/BTC = 0.07764
+GDAX: bought 0.01 ETH for 0.0007656 BTC --- Rate, ETH/BTC = 0.07656
+GEMINI: sold 0.01 ETH for 0.0007753 BTC --- Rate, ETH/BTC = 0.07753
+GEMINI: sold 0.01 ETH for 0.0007753 BTC --- Rate, ETH/BTC = 0.07753
+GEMINI: sold 0.01 ETH for 0.0007753 BTC --- Rate, ETH/BTC = 0.07753
+GDAX: bought 0.01 ETH for 0.0007656 BTC --- Rate, ETH/BTC = 0.07656
+GEMINI: sold 0.01 ETH for 0.0007749 BTC --- Rate, ETH/BTC = 0.07749
+GEMINI: sold 0.01 ETH for 0.0007749 BTC --- Rate, ETH/BTC = 0.07749
+GEMINI: sold 0.01 ETH for 0.0007749 BTC --- Rate, ETH/BTC = 0.07749
+GDAX: bought 0.01 ETH for 0.0007656 BTC --- Rate, ETH/BTC = 0.07656
+GEMINI: sold 0.01 ETH for 0.0007741 BTC --- Rate, ETH/BTC = 0.07741
+GEMINI: sold 0.01 ETH for 0.0007741 BTC --- Rate, ETH/BTC = 0.07741
+GEMINI: sold 0.01 ETH for 0.0007741 BTC --- Rate, ETH/BTC = 0.07741
+GDAX: bought 0.01 ETH for 0.0007656 BTC --- Rate, ETH/BTC = 0.07656
+GEMINI: sold 0.01 ETH for 0.0007727 BTC --- Rate, ETH/BTC = 0.07727
+GEMINI: sold 0.01 ETH for 0.0007727 BTC --- Rate, ETH/BTC = 0.07727
+GEMINI: sold 0.01 ETH for 0.0007727 BTC --- Rate, ETH/BTC = 0.07727
+GDAX: bought 0.01 ETH for 0.0007656 BTC --- Rate, ETH/BTC = 0.07656
+GEMINI: sold 0.01 ETH for 0.0007707 BTC --- Rate, ETH/BTC = 0.07707
+GEMINI: sold 0.01 ETH for 0.0007707 BTC --- Rate, ETH/BTC = 0.07707
+GEMINI: sold 0.01 ETH for 0.0007707 BTC --- Rate, ETH/BTC = 0.07707
+GDAX: bought 0.01 ETH for 0.0007656 BTC --- Rate, ETH/BTC = 0.07656
+GEMINI: sold 0.01 ETH for 0.0007697 BTC --- Rate, ETH/BTC = 0.07697
+GEMINI: sold 0.01 ETH for 0.0007697 BTC --- Rate, ETH/BTC = 0.07697
+GEMINI: sold 0.01 ETH for 0.0007697 BTC --- Rate, ETH/BTC = 0.07697
+GDAX: bought 0.01 ETH for 0.0007656 BTC --- Rate, ETH/BTC = 0.07656
+GEMINI, buy, 0.01 , ETH, 0.0007628 BTC --- Rate, ETH/BTC = 0.07628
+GEMINI, buy, 0.01 , ETH, 0.0007628 BTC --- Rate, ETH/BTC = 0.07628
+GEMINI, buy, 0.01 , ETH, 0.0007628 BTC --- Rate, ETH/BTC = 0.07628
+GDAX: sold 0.01 ETH for 0.0007669 BTC --- Rate, ETH/BTC = 0.07669
+GEMINI, buy, 0.01 , ETH, 0.0007633 BTC --- Rate, ETH/BTC = 0.07633
+GEMINI, buy, 0.01 , ETH, 0.0007633 BTC --- Rate, ETH/BTC = 0.07633
+GEMINI, buy, 0.01 , ETH, 0.0007633 BTC --- Rate, ETH/BTC = 0.07633
+GDAX: sold 0.01 ETH for 0.0007675 BTC --- Rate, ETH/BTC = 0.07675
+GEMINI, buy, 0.01 , ETH, 0.0007574 BTC --- Rate, ETH/BTC = 0.07574
+GEMINI, buy, 0.01 , ETH, 0.0007574 BTC --- Rate, ETH/BTC = 0.07574
+GEMINI, buy, 0.01 , ETH, 0.0007574 BTC --- Rate, ETH/BTC = 0.07574
+GDAX: sold 0.01 ETH for 0.0007625 BTC --- Rate, ETH/BTC = 0.07625
+GEMINI, buy, 0.01 , ETH, 0.000758 BTC --- Rate, ETH/BTC = 0.0758
+GEMINI, buy, 0.01 , ETH, 0.000758 BTC --- Rate, ETH/BTC = 0.0758
+GEMINI, buy, 0.01 , ETH, 0.000758 BTC --- Rate, ETH/BTC = 0.0758
+GDAX: sold 0.01 ETH for 0.0007625 BTC --- Rate, ETH/BTC = 0.07625
+GEMINI, buy, 0.01 , ETH, 0.0007585 BTC --- Rate, ETH/BTC = 0.07585
+GEMINI, buy, 0.01 , ETH, 0.0007585 BTC --- Rate, ETH/BTC = 0.07585
+GEMINI, buy, 0.01 , ETH, 0.0007585 BTC --- Rate, ETH/BTC = 0.07585
+GDAX: sold 0.01 ETH for 0.0007625 BTC --- Rate, ETH/BTC = 0.07625
+GEMINI, buy, 0.01 , ETH, 0.0007587 BTC --- Rate, ETH/BTC = 0.07587
+GEMINI, buy, 0.01 , ETH, 0.0007587 BTC --- Rate, ETH/BTC = 0.07587
+GEMINI, buy, 0.01 , ETH, 0.0007587 BTC --- Rate, ETH/BTC = 0.07587
+GDAX: sold 0.01 ETH for 0.0007625 BTC --- Rate, ETH/BTC = 0.07625
+GEMINI: sold 0.01 ETH for 0.0007653 BTC --- Rate, ETH/BTC = 0.07653
+GEMINI: sold 0.01 ETH for 0.0007653 BTC --- Rate, ETH/BTC = 0.07653
+GEMINI: sold 0.01 ETH for 0.0007653 BTC --- Rate, ETH/BTC = 0.07653
+GDAX: bought 0.01 ETH for 0.0007614 BTC --- Rate, ETH/BTC = 0.07614
+GEMINI: sold 0.01 ETH for 0.0007568 BTC --- Rate, ETH/BTC = 0.07568
+GEMINI: sold 0.01 ETH for 0.0007568 BTC --- Rate, ETH/BTC = 0.07568
+GEMINI: sold 0.01 ETH for 0.0007568 BTC --- Rate, ETH/BTC = 0.07568
+GDAX: bought 0.01 ETH for 0.000753 BTC --- Rate, ETH/BTC = 0.0753
+GEMINI: sold 0.01 ETH for 0.0007568 BTC --- Rate, ETH/BTC = 0.07568
+GEMINI: sold 0.01 ETH for 0.0007568 BTC --- Rate, ETH/BTC = 0.07568
+GEMINI: sold 0.01 ETH for 0.0007568 BTC --- Rate, ETH/BTC = 0.07568
+GDAX: bought 0.01 ETH for 0.0007529 BTC --- Rate, ETH/BTC = 0.07529
+GEMINI: sold 0.01 ETH for 0.0007607 BTC --- Rate, ETH/BTC = 0.07607
+GEMINI: sold 0.01 ETH for 0.0007607 BTC --- Rate, ETH/BTC = 0.07607
+GEMINI: sold 0.01 ETH for 0.0007607 BTC --- Rate, ETH/BTC = 0.07607
+GDAX: bought 0.01 ETH for 0.0007546 BTC --- Rate, ETH/BTC = 0.07546
+GEMINI: sold 0.01 ETH for 0.0007602 BTC --- Rate, ETH/BTC = 0.07602
+GEMINI: sold 0.01 ETH for 0.0007602 BTC --- Rate, ETH/BTC = 0.07602
+GEMINI: sold 0.01 ETH for 0.0007602 BTC --- Rate, ETH/BTC = 0.07602
+GDAX: bought 0.01 ETH for 0.0007552 BTC --- Rate, ETH/BTC = 0.07552
+GEMINI: sold 0.01 ETH for 0.0007594 BTC --- Rate, ETH/BTC = 0.07594
+GEMINI: sold 0.01 ETH for 0.0007594 BTC --- Rate, ETH/BTC = 0.07594
+GEMINI: sold 0.01 ETH for 0.0007594 BTC --- Rate, ETH/BTC = 0.07594
+GDAX: bought 0.01 ETH for 0.0007554 BTC --- Rate, ETH/BTC = 0.07554
+GEMINI: sold 0.01 ETH for 0.0007627 BTC --- Rate, ETH/BTC = 0.07627
+GEMINI: sold 0.01 ETH for 0.0007627 BTC --- Rate, ETH/BTC = 0.07627
+GEMINI: sold 0.01 ETH for 0.0007627 BTC --- Rate, ETH/BTC = 0.07627
+GDAX: bought 0.01 ETH for 0.0007571 BTC --- Rate, ETH/BTC = 0.07571
+GEMINI: sold 0.01 ETH for 0.0007625 BTC --- Rate, ETH/BTC = 0.07625
+GEMINI: sold 0.01 ETH for 0.0007625 BTC --- Rate, ETH/BTC = 0.07625
+GEMINI: sold 0.01 ETH for 0.0007625 BTC --- Rate, ETH/BTC = 0.07625
+GDAX: bought 0.01 ETH for 0.0007574 BTC --- Rate, ETH/BTC = 0.07574
+GEMINI: sold 0.01 ETH for 0.0007618 BTC --- Rate, ETH/BTC = 0.07618
+GEMINI: sold 0.01 ETH for 0.0007618 BTC --- Rate, ETH/BTC = 0.07618
+GEMINI: sold 0.01 ETH for 0.0007618 BTC --- Rate, ETH/BTC = 0.07618
+GDAX: bought 0.01 ETH for 0.0007574 BTC --- Rate, ETH/BTC = 0.07574
+GEMINI: sold 0.01 ETH for 0.0007618 BTC --- Rate, ETH/BTC = 0.07618
+GEMINI: sold 0.01 ETH for 0.0007618 BTC --- Rate, ETH/BTC = 0.07618
+GEMINI: sold 0.01 ETH for 0.0007618 BTC --- Rate, ETH/BTC = 0.07618
+GDAX: bought 0.01 ETH for 0.0007574 BTC --- Rate, ETH/BTC = 0.07574
+GEMINI: sold 0.01 ETH for 0.0007617 BTC --- Rate, ETH/BTC = 0.07617
+GEMINI: sold 0.01 ETH for 0.0007617 BTC --- Rate, ETH/BTC = 0.07617
+GEMINI: sold 0.01 ETH for 0.0007617 BTC --- Rate, ETH/BTC = 0.07617
+GDAX: bought 0.01 ETH for 0.0007574 BTC --- Rate, ETH/BTC = 0.07574
+GEMINI: sold 0.01 ETH for 0.0007614 BTC --- Rate, ETH/BTC = 0.07614
+GEMINI: sold 0.01 ETH for 0.0007614 BTC --- Rate, ETH/BTC = 0.07614
+GEMINI: sold 0.01 ETH for 0.0007614 BTC --- Rate, ETH/BTC = 0.07614
+GDAX: bought 0.01 ETH for 0.0007574 BTC --- Rate, ETH/BTC = 0.07574
+GEMINI, buy, 0.01 , ETH, 0.0007581 BTC --- Rate, ETH/BTC = 0.07581
+GEMINI, buy, 0.01 , ETH, 0.0007581 BTC --- Rate, ETH/BTC = 0.07581
+GEMINI, buy, 0.01 , ETH, 0.0007581 BTC --- Rate, ETH/BTC = 0.07581
+GDAX: sold 0.01 ETH for 0.0007619 BTC --- Rate, ETH/BTC = 0.07619
+GEMINI, buy, 0.01 , ETH, 0.0007539 BTC --- Rate, ETH/BTC = 0.07539
+GEMINI, buy, 0.01 , ETH, 0.0007539 BTC --- Rate, ETH/BTC = 0.07539
+GEMINI, buy, 0.01 , ETH, 0.0007539 BTC --- Rate, ETH/BTC = 0.07539
+GDAX: sold 0.01 ETH for 0.0007591 BTC --- Rate, ETH/BTC = 0.07591
+GEMINI, buy, 0.01 , ETH, 0.0007548 BTC --- Rate, ETH/BTC = 0.07548
+GEMINI, buy, 0.01 , ETH, 0.0007548 BTC --- Rate, ETH/BTC = 0.07548
+GEMINI, buy, 0.01 , ETH, 0.0007548 BTC --- Rate, ETH/BTC = 0.07548
+GDAX: sold 0.01 ETH for 0.0007591 BTC --- Rate, ETH/BTC = 0.07591
+GEMINI, buy, 0.01 , ETH, 0.0007514 BTC --- Rate, ETH/BTC = 0.07514
+GEMINI, buy, 0.01 , ETH, 0.0007514 BTC --- Rate, ETH/BTC = 0.07514
+GEMINI, buy, 0.01 , ETH, 0.0007514 BTC --- Rate, ETH/BTC = 0.07514
+GDAX: sold 0.01 ETH for 0.0007557 BTC --- Rate, ETH/BTC = 0.07557
+Traceback (most recent call last):
+  File "gemdax2.py", line 48, in <module>
+    gdax_buy_price = (float(gdax_bid())+0.00001)
+  File "gemdax2.py", line 34, in gdax_bid
+    ticker = public_client.get_product_ticker('ETH-BTC')
+  File "C:\Python27\lib\site-packages\gdax\public_client.py", line 118, in get_product_ticker
+    return r.json()
+  File "C:\Python27\lib\site-packages\requests\models.py", line 866, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python27\lib\json\__init__.py", line 338, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python27\lib\json\decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python27\lib\json\decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+
+C:\PYFiles>

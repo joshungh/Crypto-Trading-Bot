@@ -1,0 +1,1291 @@
+Microsoft Windows [Version 10.0.15063]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\WINDOWS\system32>cd C:\pyfiles
+
+C:\PYFiles>python gemdax1.py
+GDAX & Gemini Arbitrage Trading Bot v1.0
+created 8/31/2017 == christophercoca@gmail.com
+Start Time: 2017-09-01T18:27:40.639000-07:00
+Time Elapsed Since Start: 0:00:01.689000
+Time Elapsed Since Start: 0:00:08.003000
+Time Elapsed Since Start: 0:00:14.699000
+Traceback (most recent call last):
+  File "gemdax1.py", line 98, in <module>
+    time.sleep(5)
+KeyboardInterrupt
+
+C:\PYFiles>python gemdax1.py
+GDAX & Gemini Arbitrage Trading Bot v1.0
+created 8/31/2017 == christophercoca@gmail.com
+Start Time: 2017-09-01T18:28:06.830000-07:00
+Time Elapsed Since Start: 0:00:02.031000
+Time Elapsed Since Start: 0:00:03.494000
+Time Elapsed Since Start: 0:00:05.776000
+Time Elapsed Since Start: 0:00:07.495000
+Time Elapsed Since Start: 0:00:09.574000
+Time Elapsed Since Start: 0:00:11.559000
+Time Elapsed Since Start: 0:00:13.544000
+Time Elapsed Since Start: 0:00:15.544000
+Time Elapsed Since Start: 0:00:17.575000
+Time Elapsed Since Start: 0:00:19.576000
+Time Elapsed Since Start: 0:00:21.529000
+Time Elapsed Since Start: 0:00:24.095000
+Time Elapsed Since Start: 0:00:26.142000
+Time Elapsed Since Start: 0:00:27.611000
+Time Elapsed Since Start: 0:00:29.705000
+Time Elapsed Since Start: 0:00:31.643000
+Time Elapsed Since Start: 0:00:33.644000
+Time Elapsed Since Start: 0:00:35.676000
+Time Elapsed Since Start: 0:00:37.629000
+Time Elapsed Since Start: 0:00:39.817000
+Time Elapsed Since Start: 0:00:41.614000
+Time Elapsed Since Start: 0:00:43.663000
+Time Elapsed Since Start: 0:00:45.757000
+Time Elapsed Since Start: 0:00:47.725000
+Time Elapsed Since Start: 0:00:49.885000
+Time Elapsed Since Start: 0:00:51.697000
+Time Elapsed Since Start: 0:00:53.652000
+Time Elapsed Since Start: 0:00:56.105000
+Time Elapsed Since Start: 0:00:57.746000
+Time Elapsed Since Start: 0:00:59.888000
+Time Elapsed Since Start: 0:01:02.310000
+Time Elapsed Since Start: 0:01:04.077000
+Time Elapsed Since Start: 0:01:06.046000
+Time Elapsed Since Start: 0:01:08.079000
+Time Elapsed Since Start: 0:01:10.033000
+Time Elapsed Since Start: 0:01:12.095000
+Time Elapsed Since Start: 0:01:14.300000
+Time Elapsed Since Start: 0:01:16.066000
+Time Elapsed Since Start: 0:01:18.052000
+Traceback (most recent call last):
+  File "gemdax1.py", line 45, in <module>
+    gem_buy_price = (float(gem_bid())+0.00001) # exchange rate in BTC/ETH at which trade is opened
+  File "gemdax1.py", line 26, in gem_bid
+    ticker = requests.get(gem_ticker_url)
+  File "C:\Python27\lib\site-packages\requests\api.py", line 70, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\api.py", line 56, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 488, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 609, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\adapters.py", line 423, in send
+    timeout=timeout
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 379, in _make_request
+    httplib_response = conn.getresponse(buffering=True)
+  File "C:\Python27\lib\httplib.py", line 1074, in getresponse
+    response.begin()
+  File "C:\Python27\lib\httplib.py", line 415, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python27\lib\httplib.py", line 371, in _read_status
+    line = self.fp.readline(_MAXLINE + 1)
+  File "C:\Python27\lib\socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+  File "C:\Python27\lib\ssl.py", line 714, in recv
+    return self.read(buflen)
+  File "C:\Python27\lib\ssl.py", line 608, in read
+    v = self._sslobj.read(len or 1024)
+KeyboardInterrupt
+
+C:\PYFiles>python gemdax1.py
+GDAX & Gemini Arbitrage Trading Bot v1.0
+created 8/31/2017 == christophercoca@gmail.com
+Start Time: 2017-09-01T18:32:06.354000-07:00
+Time Elapsed Since Start: 0:00:01.969000
+Time Elapsed Since Start: 0:00:03.486000
+Time Elapsed Since Start: 0:00:05.518000
+Time Elapsed Since Start: 0:00:07.518000
+Time Elapsed Since Start: 0:00:09.472000
+Time Elapsed Since Start: 0:00:11.709000
+Time Elapsed Since Start: 0:00:13.706000
+Time Elapsed Since Start: 0:00:15.503000
+Time Elapsed Since Start: 0:00:17.503000
+Time Elapsed Since Start: 0:00:19.536000
+Time Elapsed Since Start: 0:00:21.567000
+Time Elapsed Since Start: 0:00:23.479000
+Time Elapsed Since Start: 0:00:25.557000
+Time Elapsed Since Start: 0:00:27.495000
+Time Elapsed Since Start: 0:00:29.466000
+Time Elapsed Since Start: 0:00:31.497000
+Time Elapsed Since Start: 0:00:33.514000
+Time Elapsed Since Start: 0:00:35.548000
+Time Elapsed Since Start: 0:00:37.517000
+Time Elapsed Since Start: 0:00:39.488000
+Time Elapsed Since Start: 0:00:41.504000
+Time Elapsed Since Start: 0:00:43.551000
+Time Elapsed Since Start: 0:00:45.613000
+Time Elapsed Since Start: 0:00:47.504000
+Time Elapsed Since Start: 0:00:49.490000
+Time Elapsed Since Start: 0:00:51.459000
+Time Elapsed Since Start: 0:00:53.679000
+Time Elapsed Since Start: 0:00:55.478000
+Time Elapsed Since Start: 0:00:57.572000
+Time Elapsed Since Start: 0:00:59.449000
+Time Elapsed Since Start: 0:01:01.466000
+Time Elapsed Since Start: 0:01:03.484000
+Time Elapsed Since Start: 0:01:05.531000
+Time Elapsed Since Start: 0:01:07.485000
+Time Elapsed Since Start: 0:01:09.549000
+Time Elapsed Since Start: 0:01:11.549000
+Time Elapsed Since Start: 0:01:13.519000
+Time Elapsed Since Start: 0:01:15.785000
+Time Elapsed Since Start: 0:01:17.520000
+Time Elapsed Since Start: 0:01:19.490000
+Time Elapsed Since Start: 0:01:21.490000
+Time Elapsed Since Start: 0:01:23.506000
+Time Elapsed Since Start: 0:01:25.539000
+Time Elapsed Since Start: 0:01:27.492000
+Time Elapsed Since Start: 0:01:29.477000
+Time Elapsed Since Start: 0:01:31.743000
+Time Elapsed Since Start: 0:01:33.463000
+Time Elapsed Since Start: 0:01:35.620000
+Time Elapsed Since Start: 0:01:37.620000
+Time Elapsed Since Start: 0:01:39.653000
+Time Elapsed Since Start: 0:01:41.465000
+Time Elapsed Since Start: 0:01:43.778000
+Time Elapsed Since Start: 0:01:45.497000
+Time Elapsed Since Start: 0:01:47.482000
+Time Elapsed Since Start: 0:01:49.452000
+Time Elapsed Since Start: 0:01:51.516000
+Time Elapsed Since Start: 0:01:53.486000
+Time Elapsed Since Start: 0:01:55.502000
+Time Elapsed Since Start: 0:01:57.518000
+Time Elapsed Since Start: 0:01:59.629000
+Time Elapsed Since Start: 0:02:01.520000
+Time Elapsed Since Start: 0:02:03.600000
+Time Elapsed Since Start: 0:02:05.740000
+Time Elapsed Since Start: 0:02:07.584000
+Time Elapsed Since Start: 0:02:09.773000
+Time Elapsed Since Start: 0:02:11.803000
+Time Elapsed Since Start: 0:02:13.815000
+Time Elapsed Since Start: 0:02:15.881000
+Time Elapsed Since Start: 0:02:17.803000
+Time Elapsed Since Start: 0:02:19.789000
+Time Elapsed Since Start: 0:02:21.774000
+Time Elapsed Since Start: 0:02:24.010000
+Time Elapsed Since Start: 0:02:25.791000
+Time Elapsed Since Start: 0:02:27.776000
+Time Elapsed Since Start: 0:02:29.752000
+Time Elapsed Since Start: 0:02:31.799000
+Time Elapsed Since Start: 0:02:33.783000
+Time Elapsed Since Start: 0:02:35.862000
+Time Elapsed Since Start: 0:02:37.784000
+Time Elapsed Since Start: 0:02:40.536000
+Time Elapsed Since Start: 0:02:42.520000
+Time Elapsed Since Start: 0:02:44.029000
+Time Elapsed Since Start: 0:02:46.529000
+Traceback (most recent call last):
+  File "gemdax1.py", line 46, in <module>
+    gem_sell_price = (float(gem_ask())-0.00001)         # price offset shown in +/- BTC/ETH
+  File "gemdax1.py", line 30, in gem_ask
+    ticker = requests.get(gem_ticker_url)
+  File "C:\Python27\lib\site-packages\requests\api.py", line 70, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\api.py", line 56, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 488, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 609, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\adapters.py", line 423, in send
+    timeout=timeout
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 379, in _make_request
+    httplib_response = conn.getresponse(buffering=True)
+  File "C:\Python27\lib\httplib.py", line 1074, in getresponse
+    response.begin()
+  File "C:\Python27\lib\httplib.py", line 415, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python27\lib\httplib.py", line 371, in _read_status
+    line = self.fp.readline(_MAXLINE + 1)
+  File "C:\Python27\lib\socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+  File "C:\Python27\lib\ssl.py", line 714, in recv
+    return self.read(buflen)
+  File "C:\Python27\lib\ssl.py", line 608, in read
+    v = self._sslobj.read(len or 1024)
+KeyboardInterrupt
+
+C:\PYFiles>python gemdax1.py
+GDAX & Gemini Arbitrage Trading Bot v1.0
+created 8/31/2017 == christophercoca@gmail.com
+Start Time: 2017-09-01T18:34:55.071000-07:00
+Time Elapsed Since Start: 0:00:02.172000
+Time Elapsed Since Start: 0:00:04.250000
+Time Elapsed Since Start: 0:00:06.236000
+Time Elapsed Since Start: 0:00:07.767000
+Time Elapsed Since Start: 0:00:09.769000
+Time Elapsed Since Start: 0:00:11.816000
+Time Elapsed Since Start: 0:00:13.769000
+Time Elapsed Since Start: 0:00:16.050000
+Time Elapsed Since Start: 0:00:17.738000
+Time Elapsed Since Start: 0:00:19.724000
+Time Elapsed Since Start: 0:00:21.755000
+Time Elapsed Since Start: 0:00:23.756000
+Time Elapsed Since Start: 0:00:25.773000
+Time Elapsed Since Start: 0:00:27.773000
+Time Elapsed Since Start: 0:00:29.789000
+Time Elapsed Since Start: 0:00:31.758000
+Time Elapsed Since Start: 0:00:33.961000
+Time Elapsed Since Start: 0:00:35.760000
+Time Elapsed Since Start: 0:00:37.807000
+Time Elapsed Since Start: 0:00:39.762000
+Time Elapsed Since Start: 0:00:41.748000
+Time Elapsed Since Start: 0:00:43.779000
+Time Elapsed Since Start: 0:00:45.750000
+Time Elapsed Since Start: 0:00:47.750000
+Time Elapsed Since Start: 0:00:49.814000
+Time Elapsed Since Start: 0:00:51.767000
+Time Elapsed Since Start: 0:00:53.783000
+Time Elapsed Since Start: 0:00:55.830000
+Time Elapsed Since Start: 0:00:57.752000
+Time Elapsed Since Start: 0:00:59.737000
+Time Elapsed Since Start: 0:01:01.940000
+Time Elapsed Since Start: 0:01:03.784000
+Time Elapsed Since Start: 0:01:05.755000
+Time Elapsed Since Start: 0:01:07.740000
+Time Elapsed Since Start: 0:01:09.820000
+Time Elapsed Since Start: 0:01:11.758000
+Time Elapsed Since Start: 0:01:13.742000
+Time Elapsed Since Start: 0:01:15.759000
+Time Elapsed Since Start: 0:01:17.780000
+Time Elapsed Since Start: 0:01:19.750000
+Time Elapsed Since Start: 0:01:21.735000
+Time Elapsed Since Start: 0:01:23.960000
+Time Elapsed Since Start: 0:01:26.024000
+Time Elapsed Since Start: 0:01:27.868000
+Time Elapsed Since Start: 0:01:29.744000
+Time Elapsed Since Start: 0:01:31.793000
+Time Elapsed Since Start: 0:01:34.012000
+Time Elapsed Since Start: 0:01:35.998000
+Time Elapsed Since Start: 0:01:37.826000
+Time Elapsed Since Start: 0:01:39.812000
+Time Elapsed Since Start: 0:01:41.812000
+Time Elapsed Since Start: 0:01:43.719000
+Time Elapsed Since Start: 0:01:46.064000
+Time Elapsed Since Start: 0:01:47.751000
+Time Elapsed Since Start: 0:01:49.846000
+Time Elapsed Since Start: 0:01:51.799000
+Time Elapsed Since Start: 0:01:53.783000
+Time Elapsed Since Start: 0:01:55.785000
+Time Elapsed Since Start: 0:01:57.755000
+Time Elapsed Since Start: 0:01:59.741000
+Time Elapsed Since Start: 0:02:01.741000
+Time Elapsed Since Start: 0:02:03.773000
+Time Elapsed Since Start: 0:02:05.760000
+Time Elapsed Since Start: 0:02:07.869000
+Time Elapsed Since Start: 0:02:09.777000
+Time Elapsed Since Start: 0:02:11.777000
+Time Elapsed Since Start: 0:02:13.840000
+Time Elapsed Since Start: 0:02:15.794000
+Time Elapsed Since Start: 0:02:17.779000
+Time Elapsed Since Start: 0:02:19.796000
+Time Elapsed Since Start: 0:02:21.876000
+Time Elapsed Since Start: 0:02:23.798000
+Time Elapsed Since Start: 0:02:25.846000
+Time Elapsed Since Start: 0:02:27.956000
+Time Elapsed Since Start: 0:02:29.784000
+Time Elapsed Since Start: 0:02:31.753000
+Time Elapsed Since Start: 0:02:33.753000
+Time Elapsed Since Start: 0:02:35.739000
+Time Elapsed Since Start: 0:02:37.802000
+Time Elapsed Since Start: 0:02:39.788000
+Time Elapsed Since Start: 0:02:41.754000
+Time Elapsed Since Start: 0:02:43.801000
+Time Elapsed Since Start: 0:02:45.778000
+Time Elapsed Since Start: 0:02:47.841000
+Time Elapsed Since Start: 0:02:49.874000
+Time Elapsed Since Start: 0:02:51.765000
+Time Elapsed Since Start: 0:02:53.875000
+Time Elapsed Since Start: 0:02:55.797000
+Time Elapsed Since Start: 0:02:57.766000
+Time Elapsed Since Start: 0:02:59.799000
+Time Elapsed Since Start: 0:03:01.752000
+Time Elapsed Since Start: 0:03:03.752000
+Time Elapsed Since Start: 0:03:05.801000
+Time Elapsed Since Start: 0:03:07.769000
+Time Elapsed Since Start: 0:03:09.802000
+Time Elapsed Since Start: 0:03:11.741000
+Time Elapsed Since Start: 0:03:13.757000
+Time Elapsed Since Start: 0:03:15.768000
+Time Elapsed Since Start: 0:03:17.815000
+Time Elapsed Since Start: 0:03:19.800000
+Time Elapsed Since Start: 0:03:21.863000
+Time Elapsed Since Start: 0:03:23.785000
+Time Elapsed Since Start: 0:03:25.849000
+Time Elapsed Since Start: 0:03:27.833000
+Time Elapsed Since Start: 0:03:29.788000
+Time Elapsed Since Start: 0:03:31.788000
+Time Elapsed Since Start: 0:03:33.773000
+Time Elapsed Since Start: 0:03:35.930000
+Time Elapsed Since Start: 0:03:37.822000
+Time Elapsed Since Start: 0:03:40.010000
+Time Elapsed Since Start: 0:03:41.807000
+Time Elapsed Since Start: 0:03:43.963000
+Time Elapsed Since Start: 0:03:45.777000
+Time Elapsed Since Start: 0:03:47.802000
+Time Elapsed Since Start: 0:03:49.787000
+Time Elapsed Since Start: 0:03:51.756000
+Time Elapsed Since Start: 0:03:53.819000
+Time Elapsed Since Start: 0:03:56.070000
+Time Elapsed Since Start: 0:03:57.805000
+Time Elapsed Since Start: 0:03:59.791000
+Time Elapsed Since Start: 0:04:02.402000
+Time Elapsed Since Start: 0:04:03.995000
+Time Elapsed Since Start: 0:04:05.902000
+Time Elapsed Since Start: 0:04:07.948000
+Time Elapsed Since Start: 0:04:09.981000
+Time Elapsed Since Start: 0:04:11.981000
+Time Elapsed Since Start: 0:04:14.325000
+Time Elapsed Since Start: 0:04:15.920000
+Time Elapsed Since Start: 0:04:17.920000
+Time Elapsed Since Start: 0:04:19.952000
+Time Elapsed Since Start: 0:04:22.562000
+Time Elapsed Since Start: 0:04:24.577000
+Time Elapsed Since Start: 0:04:26.080000
+Time Elapsed Since Start: 0:04:28.158000
+Time Elapsed Since Start: 0:04:30.051000
+Time Elapsed Since Start: 0:04:32.146000
+Time Elapsed Since Start: 0:04:34.099000
+Time Elapsed Since Start: 0:04:36.163000
+Time Elapsed Since Start: 0:04:38.101000
+Time Elapsed Since Start: 0:04:40.649000
+Time Elapsed Since Start: 0:04:42.165000
+Time Elapsed Since Start: 0:04:44.134000
+Time Elapsed Since Start: 0:04:46.401000
+Time Elapsed Since Start: 0:04:48.417000
+Time Elapsed Since Start: 0:04:50.153000
+Time Elapsed Since Start: 0:04:52.169000
+Time Elapsed Since Start: 0:04:54.263000
+Time Elapsed Since Start: 0:04:56.139000
+Time Elapsed Since Start: 0:04:58.139000
+Time Elapsed Since Start: 0:05:00.187000
+Time Elapsed Since Start: 0:05:02.156000
+Time Elapsed Since Start: 0:05:04.141000
+Time Elapsed Since Start: 0:05:06.142000
+Time Elapsed Since Start: 0:05:08.252000
+Time Elapsed Since Start: 0:05:10.160000
+Time Elapsed Since Start: 0:05:14.567000
+Time Elapsed Since Start: 0:05:16.774000
+Time Elapsed Since Start: 0:05:18.571000
+Time Elapsed Since Start: 0:05:20.603000
+Time Elapsed Since Start: 0:05:22.541000
+Time Elapsed Since Start: 0:05:24.510000
+Time Elapsed Since Start: 0:05:26.543000
+Time Elapsed Since Start: 0:05:28.605000
+Time Elapsed Since Start: 0:05:31.326000
+Time Elapsed Since Start: 0:05:33.357000
+Time Elapsed Since Start: 0:05:34.906000
+Time Elapsed Since Start: 0:05:36.922000
+Time Elapsed Since Start: 0:05:38.890000
+Time Elapsed Since Start: 0:05:40.861000
+Time Elapsed Since Start: 0:05:42.863000
+Time Elapsed Since Start: 0:05:44.927000
+Time Elapsed Since Start: 0:05:46.881000
+Time Elapsed Since Start: 0:05:48.912000
+Time Elapsed Since Start: 0:05:50.851000
+Time Elapsed Since Start: 0:05:52.898000
+Time Elapsed Since Start: 0:05:54.853000
+Time Elapsed Since Start: 0:05:57.041000
+GEMINI: sold 0.02 ETH for 0.0015694 BTC --- Rate, ETH/BTC = 0.07847
+GDAX: bought 0.02 ETH for 0.0015612 BTC --- Rate, ETH/BTC = 0.07806
+GEMINI: sold 0.02 ETH for 0.0015696 BTC --- Rate, ETH/BTC = 0.07848
+GDAX: bought 0.02 ETH for 0.0015612 BTC --- Rate, ETH/BTC = 0.07806
+GEMINI: sold 0.02 ETH for 0.0015696 BTC --- Rate, ETH/BTC = 0.07848
+GDAX: bought 0.02 ETH for 0.0015612 BTC --- Rate, ETH/BTC = 0.07806
+GEMINI: sold 0.02 ETH for 0.0015696 BTC --- Rate, ETH/BTC = 0.07848
+GDAX: bought 0.02 ETH for 0.0015612 BTC --- Rate, ETH/BTC = 0.07806
+GEMINI: sold 0.02 ETH for 0.0015696 BTC --- Rate, ETH/BTC = 0.07848
+GDAX: bought 0.02 ETH for 0.0015612 BTC --- Rate, ETH/BTC = 0.07806
+GEMINI: sold 0.02 ETH for 0.0015696 BTC --- Rate, ETH/BTC = 0.07848
+GDAX: bought 0.02 ETH for 0.0015612 BTC --- Rate, ETH/BTC = 0.07806
+GEMINI: sold 0.02 ETH for 0.0015696 BTC --- Rate, ETH/BTC = 0.07848
+GDAX: bought 0.02 ETH for 0.0015612 BTC --- Rate, ETH/BTC = 0.07806
+GEMINI: sold 0.02 ETH for 0.0015696 BTC --- Rate, ETH/BTC = 0.07848
+GDAX: bought 0.02 ETH for 0.0015612 BTC --- Rate, ETH/BTC = 0.07806
+GEMINI: sold 0.02 ETH for 0.0015696 BTC --- Rate, ETH/BTC = 0.07848
+GDAX: bought 0.02 ETH for 0.0015612 BTC --- Rate, ETH/BTC = 0.07806
+GEMINI: sold 0.02 ETH for 0.0015696 BTC --- Rate, ETH/BTC = 0.07848
+GDAX: bought 0.02 ETH for 0.0015612 BTC --- Rate, ETH/BTC = 0.07806
+GEMINI: sold 0.02 ETH for 0.0015696 BTC --- Rate, ETH/BTC = 0.07848
+GDAX: bought 0.02 ETH for 0.0015612 BTC --- Rate, ETH/BTC = 0.07806
+GEMINI: sold 0.02 ETH for 0.0015694 BTC --- Rate, ETH/BTC = 0.07847
+GDAX: bought 0.02 ETH for 0.0015612 BTC --- Rate, ETH/BTC = 0.07806
+GEMINI: sold 0.02 ETH for 0.0015694 BTC --- Rate, ETH/BTC = 0.07847
+GDAX: bought 0.02 ETH for 0.0015612 BTC --- Rate, ETH/BTC = 0.07806
+GEMINI: sold 0.02 ETH for 0.0015694 BTC --- Rate, ETH/BTC = 0.07847
+GDAX: bought 0.02 ETH for 0.0015612 BTC --- Rate, ETH/BTC = 0.07806
+GEMINI: sold 0.02 ETH for 0.0015694 BTC --- Rate, ETH/BTC = 0.07847
+GDAX: bought 0.02 ETH for 0.0015612 BTC --- Rate, ETH/BTC = 0.07806
+GEMINI: sold 0.02 ETH for 0.0015694 BTC --- Rate, ETH/BTC = 0.07847
+GDAX: bought 0.02 ETH for 0.0015612 BTC --- Rate, ETH/BTC = 0.07806
+Time Elapsed Since Start: 0:06:44.110000
+Time Elapsed Since Start: 0:06:46.117000
+Time Elapsed Since Start: 0:06:47.883000
+GEMINI: sold 0.02 ETH for 0.0015692 BTC --- Rate, ETH/BTC = 0.07846
+GDAX: bought 0.02 ETH for 0.0015612 BTC --- Rate, ETH/BTC = 0.07806
+Time Elapsed Since Start: 0:06:51.932000
+Time Elapsed Since Start: 0:06:53.963000
+Time Elapsed Since Start: 0:06:55.980000
+Time Elapsed Since Start: 0:06:58.013000
+Time Elapsed Since Start: 0:06:59.953000
+Time Elapsed Since Start: 0:07:01.953000
+Time Elapsed Since Start: 0:07:03.922000
+Time Elapsed Since Start: 0:07:06.111000
+Time Elapsed Since Start: 0:07:07.939000
+Time Elapsed Since Start: 0:07:09.941000
+Time Elapsed Since Start: 0:07:11.956000
+Time Elapsed Since Start: 0:07:13.972000
+Time Elapsed Since Start: 0:07:15.958000
+Time Elapsed Since Start: 0:07:18.146000
+Time Elapsed Since Start: 0:07:19.975000
+Time Elapsed Since Start: 0:07:21.914000
+Time Elapsed Since Start: 0:07:23.946000
+Time Elapsed Since Start: 0:07:25.947000
+Time Elapsed Since Start: 0:07:27.932000
+Time Elapsed Since Start: 0:07:29.949000
+Time Elapsed Since Start: 0:07:31.918000
+Time Elapsed Since Start: 0:07:33.981000
+Time Elapsed Since Start: 0:07:36.154000
+Time Elapsed Since Start: 0:07:37.936000
+Time Elapsed Since Start: 0:07:39.984000
+Time Elapsed Since Start: 0:07:41.922000
+Time Elapsed Since Start: 0:07:44.172000
+Time Elapsed Since Start: 0:07:45.970000
+Time Elapsed Since Start: 0:07:48.300000
+Time Elapsed Since Start: 0:07:49.973000
+Time Elapsed Since Start: 0:07:51.958000
+Time Elapsed Since Start: 0:07:54.442000
+Time Elapsed Since Start: 0:07:56.147000
+Time Elapsed Since Start: 0:07:57.960000
+Time Elapsed Since Start: 0:08:00.007000
+Time Elapsed Since Start: 0:08:01.960000
+Time Elapsed Since Start: 0:08:03.960000
+Time Elapsed Since Start: 0:08:05.915000
+Time Elapsed Since Start: 0:08:07.947000
+Time Elapsed Since Start: 0:08:09.995000
+Time Elapsed Since Start: 0:08:12.247000
+Time Elapsed Since Start: 0:08:13.950000
+Time Elapsed Since Start: 0:08:16.075000
+Time Elapsed Since Start: 0:08:17.966000
+Time Elapsed Since Start: 0:08:19.940000
+Time Elapsed Since Start: 0:08:21.940000
+Time Elapsed Since Start: 0:08:23.956000
+Time Elapsed Since Start: 0:08:26.067000
+Time Elapsed Since Start: 0:08:28.145000
+Time Elapsed Since Start: 0:08:30.020000
+Time Elapsed Since Start: 0:08:31.974000
+Time Elapsed Since Start: 0:08:33.990000
+Time Elapsed Since Start: 0:08:35.975000
+Time Elapsed Since Start: 0:08:38.211000
+Time Elapsed Since Start: 0:08:39.931000
+Time Elapsed Since Start: 0:08:41.963000
+Time Elapsed Since Start: 0:08:43.963000
+Time Elapsed Since Start: 0:08:46.200000
+Time Elapsed Since Start: 0:08:48.028000
+Time Elapsed Since Start: 0:08:49.983000
+Time Elapsed Since Start: 0:08:51.921000
+Time Elapsed Since Start: 0:08:54.171000
+Time Elapsed Since Start: 0:08:55.972000
+Time Elapsed Since Start: 0:08:57.972000
+Time Elapsed Since Start: 0:08:59.973000
+Time Elapsed Since Start: 0:09:01.992000
+Time Elapsed Since Start: 0:09:03.914000
+Time Elapsed Since Start: 0:09:05.930000
+Time Elapsed Since Start: 0:09:08.008000
+Time Elapsed Since Start: 0:09:09.931000
+Time Elapsed Since Start: 0:09:11.979000
+Time Elapsed Since Start: 0:09:13.916000
+Time Elapsed Since Start: 0:09:17.168000
+Time Elapsed Since Start: 0:09:19.215000
+Time Elapsed Since Start: 0:09:20.732000
+Time Elapsed Since Start: 0:09:22.732000
+Time Elapsed Since Start: 0:09:25.218000
+Time Elapsed Since Start: 0:09:26.720000
+Time Elapsed Since Start: 0:09:28.782000
+Time Elapsed Since Start: 0:09:30.737000
+Time Elapsed Since Start: 0:09:32.815000
+Time Elapsed Since Start: 0:09:34.754000
+Time Elapsed Since Start: 0:09:36.739000
+Time Elapsed Since Start: 0:09:38.723000
+Time Elapsed Since Start: 0:09:40.943000
+Time Elapsed Since Start: 0:09:42.833000
+Time Elapsed Since Start: 0:09:44.740000
+Time Elapsed Since Start: 0:09:46.772000
+Time Elapsed Since Start: 0:09:48.787000
+Time Elapsed Since Start: 0:09:50.930000
+Time Elapsed Since Start: 0:09:52.712000
+Time Elapsed Since Start: 0:09:54.712000
+Time Elapsed Since Start: 0:09:56.776000
+Time Elapsed Since Start: 0:09:58.730000
+Time Elapsed Since Start: 0:10:00.965000
+Time Elapsed Since Start: 0:10:02.731000
+Time Elapsed Since Start: 0:10:04.747000
+Time Elapsed Since Start: 0:10:07.026000
+Time Elapsed Since Start: 0:10:08.729000
+Time Elapsed Since Start: 0:10:10.731000
+Time Elapsed Since Start: 0:10:12.856000
+Time Elapsed Since Start: 0:10:14.718000
+Time Elapsed Since Start: 0:10:16.719000
+Time Elapsed Since Start: 0:10:18.767000
+Time Elapsed Since Start: 0:10:20.690000
+Time Elapsed Since Start: 0:10:22.815000
+Time Elapsed Since Start: 0:10:24.786000
+Time Elapsed Since Start: 0:10:26.723000
+Time Elapsed Since Start: 0:10:28.805000
+Time Elapsed Since Start: 0:10:30.759000
+Time Elapsed Since Start: 0:10:32.963000
+Time Elapsed Since Start: 0:10:34.730000
+Time Elapsed Since Start: 0:10:36.777000
+Time Elapsed Since Start: 0:10:38.715000
+Time Elapsed Since Start: 0:10:41.013000
+Time Elapsed Since Start: 0:10:42.733000
+Time Elapsed Since Start: 0:10:44.750000
+Time Elapsed Since Start: 0:10:46.751000
+Time Elapsed Since Start: 0:10:48.782000
+Time Elapsed Since Start: 0:10:50.940000
+Time Elapsed Since Start: 0:10:53.049000
+Time Elapsed Since Start: 0:10:54.753000
+Time Elapsed Since Start: 0:10:56.722000
+Time Elapsed Since Start: 0:10:58.956000
+Time Elapsed Since Start: 0:11:01.223000
+Time Elapsed Since Start: 0:11:02.724000
+Time Elapsed Since Start: 0:11:04.708000
+Time Elapsed Since Start: 0:11:06.773000
+Time Elapsed Since Start: 0:11:08.758000
+Time Elapsed Since Start: 0:11:10.963000
+Time Elapsed Since Start: 0:11:12.791000
+Time Elapsed Since Start: 0:11:14.777000
+Time Elapsed Since Start: 0:11:16.746000
+Time Elapsed Since Start: 0:11:18.746000
+Time Elapsed Since Start: 0:11:20.763000
+Time Elapsed Since Start: 0:11:22.716000
+Time Elapsed Since Start: 0:11:24.796000
+Time Elapsed Since Start: 0:11:27.265000
+Time Elapsed Since Start: 0:11:28.734000
+Time Elapsed Since Start: 0:11:30.767000
+Time Elapsed Since Start: 0:11:32.752000
+Time Elapsed Since Start: 0:11:35.238000
+Time Elapsed Since Start: 0:11:37.441000
+Time Elapsed Since Start: 0:11:39.504000
+Time Elapsed Since Start: 0:11:41.224000
+Time Elapsed Since Start: 0:11:43.162000
+Time Elapsed Since Start: 0:11:45.539000
+Time Elapsed Since Start: 0:11:47.023000
+Time Elapsed Since Start: 0:11:49.042000
+Time Elapsed Since Start: 0:11:51.090000
+Time Elapsed Since Start: 0:11:53.106000
+Time Elapsed Since Start: 0:11:55.091000
+Time Elapsed Since Start: 0:11:57.092000
+Time Elapsed Since Start: 0:11:59.233000
+Time Elapsed Since Start: 0:12:01.061000
+Time Elapsed Since Start: 0:12:03.530000
+Time Elapsed Since Start: 0:12:05.016000
+Time Elapsed Since Start: 0:12:07.032000
+Time Elapsed Since Start: 0:12:09.079000
+Time Elapsed Since Start: 0:12:11.049000
+Time Elapsed Since Start: 0:12:13.050000
+Time Elapsed Since Start: 0:12:15.254000
+Time Elapsed Since Start: 0:12:17.020000
+Time Elapsed Since Start: 0:12:19.036000
+Time Elapsed Since Start: 0:12:21.005000
+Time Elapsed Since Start: 0:12:23.100000
+Time Elapsed Since Start: 0:12:25.054000
+Time Elapsed Since Start: 0:12:27.007000
+Time Elapsed Since Start: 0:12:29.585000
+Time Elapsed Since Start: 0:12:31.071000
+Time Elapsed Since Start: 0:12:33.071000
+Time Elapsed Since Start: 0:12:35.151000
+Time Elapsed Since Start: 0:12:37.120000
+Time Elapsed Since Start: 0:12:39.089000
+Time Elapsed Since Start: 0:12:41.169000
+Time Elapsed Since Start: 0:12:43.107000
+Time Elapsed Since Start: 0:12:45.108000
+Time Elapsed Since Start: 0:12:47.156000
+Time Elapsed Since Start: 0:12:49.140000
+Time Elapsed Since Start: 0:12:51.126000
+Time Elapsed Since Start: 0:12:53.079000
+Time Elapsed Since Start: 0:12:55.142000
+Time Elapsed Since Start: 0:12:57.143000
+Time Elapsed Since Start: 0:12:59.127000
+Time Elapsed Since Start: 0:13:01.082000
+Time Elapsed Since Start: 0:13:03.176000
+Time Elapsed Since Start: 0:13:05.162000
+Time Elapsed Since Start: 0:13:07.100000
+Time Elapsed Since Start: 0:13:09.162000
+Time Elapsed Since Start: 0:13:11.665000
+Time Elapsed Since Start: 0:13:13.149000
+Time Elapsed Since Start: 0:13:15.151000
+Time Elapsed Since Start: 0:13:17.792000
+Time Elapsed Since Start: 0:13:19.873000
+Time Elapsed Since Start: 0:13:21.889000
+Time Elapsed Since Start: 0:13:23.436000
+Time Elapsed Since Start: 0:13:25.421000
+Time Elapsed Since Start: 0:13:27.374000
+Time Elapsed Since Start: 0:13:29.452000
+Time Elapsed Since Start: 0:13:31.844000
+Time Elapsed Since Start: 0:13:33.376000
+Time Elapsed Since Start: 0:13:35.471000
+Time Elapsed Since Start: 0:13:37.426000
+Time Elapsed Since Start: 0:13:39.426000
+Time Elapsed Since Start: 0:13:41.444000
+Time Elapsed Since Start: 0:13:43.413000
+Time Elapsed Since Start: 0:13:45.493000
+Time Elapsed Since Start: 0:13:47.602000
+Time Elapsed Since Start: 0:13:49.399000
+Time Elapsed Since Start: 0:13:51.417000
+Time Elapsed Since Start: 0:13:53.605000
+Time Elapsed Since Start: 0:13:55.418000
+Time Elapsed Since Start: 0:13:57.637000
+Time Elapsed Since Start: 0:13:59.371000
+Time Elapsed Since Start: 0:14:01.390000
+Time Elapsed Since Start: 0:14:03.577000
+Time Elapsed Since Start: 0:14:05.423000
+Time Elapsed Since Start: 0:14:07.392000
+Time Elapsed Since Start: 0:14:09.423000
+Time Elapsed Since Start: 0:14:11.378000
+Time Elapsed Since Start: 0:14:13.394000
+Time Elapsed Since Start: 0:14:15.614000
+Time Elapsed Since Start: 0:14:17.411000
+Time Elapsed Since Start: 0:14:19.473000
+Time Elapsed Since Start: 0:14:21.584000
+Time Elapsed Since Start: 0:14:23.413000
+Time Elapsed Since Start: 0:14:25.383000
+Time Elapsed Since Start: 0:14:27.462000
+Time Elapsed Since Start: 0:14:29.431000
+Time Elapsed Since Start: 0:14:31.729000
+Time Elapsed Since Start: 0:14:33.409000
+Time Elapsed Since Start: 0:14:35.426000
+Time Elapsed Since Start: 0:14:37.770000
+Time Elapsed Since Start: 0:14:39.458000
+Time Elapsed Since Start: 0:14:41.411000
+Time Elapsed Since Start: 0:14:43.458000
+Time Elapsed Since Start: 0:14:45.428000
+Time Elapsed Since Start: 0:14:47.537000
+Time Elapsed Since Start: 0:14:49.397000
+Time Elapsed Since Start: 0:14:51.431000
+Time Elapsed Since Start: 0:14:53.509000
+Time Elapsed Since Start: 0:14:55.479000
+Time Elapsed Since Start: 0:14:57.479000
+Time Elapsed Since Start: 0:14:59.620000
+Time Elapsed Since Start: 0:15:01.418000
+Time Elapsed Since Start: 0:15:03.809000
+Time Elapsed Since Start: 0:15:05.483000
+Time Elapsed Since Start: 0:15:07.420000
+Time Elapsed Since Start: 0:15:09.421000
+Time Elapsed Since Start: 0:15:11.390000
+Time Elapsed Since Start: 0:15:13.812000
+Time Elapsed Since Start: 0:15:15.846000
+Time Elapsed Since Start: 0:15:17.848000
+Time Elapsed Since Start: 0:15:20.052000
+Time Elapsed Since Start: 0:15:21.850000
+Time Elapsed Since Start: 0:15:24.068000
+Time Elapsed Since Start: 0:15:25.867000
+Time Elapsed Since Start: 0:15:27.898000
+Time Elapsed Since Start: 0:15:29.900000
+Time Elapsed Since Start: 0:15:31.884000
+Time Elapsed Since Start: 0:15:33.963000
+Time Elapsed Since Start: 0:15:36.057000
+Time Elapsed Since Start: 0:15:38.057000
+Time Elapsed Since Start: 0:15:40.105000
+Time Elapsed Since Start: 0:15:42.310000
+Time Elapsed Since Start: 0:15:44.138000
+Time Elapsed Since Start: 0:15:46.781000
+Time Elapsed Since Start: 0:15:48.812000
+Time Elapsed Since Start: 0:15:50.328000
+Time Elapsed Since Start: 0:15:52.391000
+Time Elapsed Since Start: 0:15:54.328000
+Time Elapsed Since Start: 0:15:56.314000
+Time Elapsed Since Start: 0:15:58.315000
+Time Elapsed Since Start: 0:16:00.332000
+Time Elapsed Since Start: 0:16:02.308000
+Time Elapsed Since Start: 0:16:04.355000
+Time Elapsed Since Start: 0:16:06.389000
+Time Elapsed Since Start: 0:16:08.358000
+Time Elapsed Since Start: 0:16:10.858000
+Time Elapsed Since Start: 0:16:12.390000
+Time Elapsed Since Start: 0:16:14.406000
+Time Elapsed Since Start: 0:16:16.423000
+Time Elapsed Since Start: 0:16:18.423000
+Time Elapsed Since Start: 0:16:20.409000
+Time Elapsed Since Start: 0:16:22.394000
+Time Elapsed Since Start: 0:16:24.472000
+Time Elapsed Since Start: 0:16:26.359000
+Time Elapsed Since Start: 0:16:28.422000
+Time Elapsed Since Start: 0:16:30.423000
+Time Elapsed Since Start: 0:16:32.408000
+Time Elapsed Since Start: 0:16:34.455000
+Time Elapsed Since Start: 0:16:36.394000
+Time Elapsed Since Start: 0:16:38.410000
+Time Elapsed Since Start: 0:16:40.394000
+Time Elapsed Since Start: 0:16:42.393000
+Time Elapsed Since Start: 0:16:44.409000
+Time Elapsed Since Start: 0:16:46.395000
+Time Elapsed Since Start: 0:16:48.536000
+Time Elapsed Since Start: 0:16:50.413000
+Time Elapsed Since Start: 0:16:52.381000
+Time Elapsed Since Start: 0:16:54.397000
+Time Elapsed Since Start: 0:16:56.415000
+Time Elapsed Since Start: 0:16:58.633000
+Time Elapsed Since Start: 0:17:00.399000
+Time Elapsed Since Start: 0:17:02.462000
+Time Elapsed Since Start: 0:17:04.587000
+Time Elapsed Since Start: 0:17:06.407000
+Time Elapsed Since Start: 0:17:08.642000
+Time Elapsed Since Start: 0:17:10.439000
+Time Elapsed Since Start: 0:17:12.627000
+Time Elapsed Since Start: 0:17:14.408000
+Time Elapsed Since Start: 0:17:16.394000
+Time Elapsed Since Start: 0:17:18.442000
+Time Elapsed Since Start: 0:17:20.412000
+Time Elapsed Since Start: 0:17:22.632000
+Time Elapsed Since Start: 0:17:24.398000
+Time Elapsed Since Start: 0:17:26.415000
+Time Elapsed Since Start: 0:17:28.774000
+Time Elapsed Since Start: 0:17:30.432000
+Time Elapsed Since Start: 0:17:32.495000
+Time Elapsed Since Start: 0:17:34.495000
+Time Elapsed Since Start: 0:17:36.667000
+Time Elapsed Since Start: 0:17:38.496000
+Time Elapsed Since Start: 0:17:40.513000
+Time Elapsed Since Start: 0:17:42.575000
+Time Elapsed Since Start: 0:17:44.592000
+Time Elapsed Since Start: 0:17:46.576000
+Time Elapsed Since Start: 0:17:48.514000
+Time Elapsed Since Start: 0:17:50.513000
+Time Elapsed Since Start: 0:17:52.575000
+Time Elapsed Since Start: 0:17:54.497000
+Time Elapsed Since Start: 0:17:56.530000
+Time Elapsed Since Start: 0:17:58.546000
+Time Elapsed Since Start: 0:18:00.597000
+Time Elapsed Since Start: 0:18:02.566000
+Time Elapsed Since Start: 0:18:04.535000
+Time Elapsed Since Start: 0:18:06.490000
+Time Elapsed Since Start: 0:18:08.740000
+Time Elapsed Since Start: 0:18:10.695000
+Time Elapsed Since Start: 0:18:12.556000
+Time Elapsed Since Start: 0:18:14.572000
+Time Elapsed Since Start: 0:18:16.511000
+Time Elapsed Since Start: 0:18:18.527000
+Time Elapsed Since Start: 0:18:20.700000
+Time Elapsed Since Start: 0:18:22.716000
+Time Elapsed Since Start: 0:18:27.983000
+Time Elapsed Since Start: 0:18:30.359000
+Time Elapsed Since Start: 0:18:32.672000
+Time Elapsed Since Start: 0:18:34.720000
+Time Elapsed Since Start: 0:18:36.471000
+Time Elapsed Since Start: 0:18:38.205000
+Time Elapsed Since Start: 0:18:40.253000
+Time Elapsed Since Start: 0:18:42.396000
+Time Elapsed Since Start: 0:18:44.224000
+Time Elapsed Since Start: 0:18:46.213000
+Time Elapsed Since Start: 0:18:48.306000
+Time Elapsed Since Start: 0:18:50.230000
+Time Elapsed Since Start: 0:18:52.464000
+Traceback (most recent call last):
+  File "gemdax1.py", line 45, in <module>
+    gem_buy_price = (float(gem_bid())+0.00001) # exchange rate in BTC/ETH at which trade is opened
+  File "gemdax1.py", line 26, in gem_bid
+    ticker = requests.get(gem_ticker_url)
+  File "C:\Python27\lib\site-packages\requests\api.py", line 70, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\api.py", line 56, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 488, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 609, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\adapters.py", line 423, in send
+    timeout=timeout
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 379, in _make_request
+    httplib_response = conn.getresponse(buffering=True)
+  File "C:\Python27\lib\httplib.py", line 1074, in getresponse
+    response.begin()
+  File "C:\Python27\lib\httplib.py", line 415, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python27\lib\httplib.py", line 371, in _read_status
+    line = self.fp.readline(_MAXLINE + 1)
+  File "C:\Python27\lib\socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+  File "C:\Python27\lib\ssl.py", line 714, in recv
+    return self.read(buflen)
+  File "C:\Python27\lib\ssl.py", line 608, in read
+    v = self._sslobj.read(len or 1024)
+KeyboardInterrupt
+
+C:\PYFiles>
+C:\PYFiles>python gemdax1.py
+GDAX & Gemini Arbitrage Trading Bot v1.0
+created 8/31/2017 == christophercoca@gmail.com
+Start Time: 2017-09-01T18:56:36.224000-07:00
+Traceback (most recent call last):
+  File "gemdax1.py", line 87, in <module>
+    time.sleep(5)
+KeyboardInterrupt
+
+C:\PYFiles>python gemdax1.py
+GDAX & Gemini Arbitrage Trading Bot v1.0
+created 8/31/2017 == christophercoca@gmail.com
+Start Time: 2017-09-01T18:57:11.439000-07:00
+Time Elapsed Since Start: 0:00:02.141000
+Time Elapsed Since Start: 0:00:04.076000
+Time Elapsed Since Start: 0:00:06.232000
+Time Elapsed Since Start: 0:00:08.123000
+Time Elapsed Since Start: 0:00:10.047000
+Time Elapsed Since Start: 0:00:12.047000
+Time Elapsed Since Start: 0:00:14.580000
+Time Elapsed Since Start: 0:01:24.442000
+Time Elapsed Since Start: 0:01:26.020000
+Time Elapsed Since Start: 0:01:28.004000
+Time Elapsed Since Start: 0:01:29.994000
+Time Elapsed Since Start: 0:01:32.033000
+Time Elapsed Since Start: 0:01:33.985000
+Time Elapsed Since Start: 0:01:36.269000
+Time Elapsed Since Start: 0:01:38.262000
+Time Elapsed Since Start: 0:01:40.499000
+Time Elapsed Since Start: 0:01:42.281000
+Time Elapsed Since Start: 0:01:44.454000
+Time Elapsed Since Start: 0:01:46.315000
+Time Elapsed Since Start: 0:01:48.300000
+Time Elapsed Since Start: 0:01:57.771000
+Time Elapsed Since Start: 0:02:00.085000
+Time Elapsed Since Start: 0:02:01.850000
+Time Elapsed Since Start: 0:02:03.758000
+Time Elapsed Since Start: 0:02:05.758000
+Time Elapsed Since Start: 0:02:07.759000
+Time Elapsed Since Start: 0:02:09.743000
+Time Elapsed Since Start: 0:02:11.839000
+Time Elapsed Since Start: 0:02:13.761000
+Time Elapsed Since Start: 0:02:15.777000
+Time Elapsed Since Start: 0:02:17.761000
+Time Elapsed Since Start: 0:02:19.778000
+Time Elapsed Since Start: 0:02:21.762000
+Time Elapsed Since Start: 0:02:23.764000
+Time Elapsed Since Start: 0:02:25.959000
+Time Elapsed Since Start: 0:02:27.781000
+Time Elapsed Since Start: 0:02:29.782000
+Time Elapsed Since Start: 0:02:31.844000
+Time Elapsed Since Start: 0:02:33.987000
+Time Elapsed Since Start: 0:02:35.738000
+Time Elapsed Since Start: 0:02:37.785000
+Time Elapsed Since Start: 0:02:39.797000
+Time Elapsed Since Start: 0:02:41.784000
+Time Elapsed Since Start: 0:02:43.740000
+Time Elapsed Since Start: 0:02:45.771000
+Time Elapsed Since Start: 0:02:47.771000
+Time Elapsed Since Start: 0:02:49.756000
+Time Elapsed Since Start: 0:02:52
+Time Elapsed Since Start: 0:02:53.793000
+Time Elapsed Since Start: 0:02:55.809000
+Time Elapsed Since Start: 0:02:57.827000
+Time Elapsed Since Start: 0:02:59.969000
+Time Elapsed Since Start: 0:03:01.751000
+Time Elapsed Since Start: 0:03:03.814000
+Time Elapsed Since Start: 0:03:05.767000
+Time Elapsed Since Start: 0:03:07.783000
+Time Elapsed Since Start: 0:03:09.770000
+Time Elapsed Since Start: 0:03:11.833000
+Time Elapsed Since Start: 0:03:13.756000
+Time Elapsed Since Start: 0:03:15.788000
+Time Elapsed Since Start: 0:03:17.772000
+Time Elapsed Since Start: 0:03:19.758000
+Time Elapsed Since Start: 0:03:21.790000
+Time Elapsed Since Start: 0:03:23.728000
+Time Elapsed Since Start: 0:03:25.761000
+Time Elapsed Since Start: 0:03:27.761000
+Time Elapsed Since Start: 0:03:29.745000
+Time Elapsed Since Start: 0:03:32.308000
+Time Elapsed Since Start: 0:03:34.341000
+Time Elapsed Since Start: 0:03:35.856000
+Time Elapsed Since Start: 0:03:38.185000
+Time Elapsed Since Start: 0:03:39.842000
+Time Elapsed Since Start: 0:03:41.889000
+Time Elapsed Since Start: 0:03:43.827000
+Time Elapsed Since Start: 0:03:45.828000
+Time Elapsed Since Start: 0:03:48.062000
+Time Elapsed Since Start: 0:03:49.861000
+Time Elapsed Since Start: 0:03:51.831000
+Time Elapsed Since Start: 0:03:54.082000
+Time Elapsed Since Start: 0:03:55.879000
+Time Elapsed Since Start: 0:03:57.926000
+Time Elapsed Since Start: 0:03:59.927000
+Time Elapsed Since Start: 0:04:01.849000
+Time Elapsed Since Start: 0:04:03.876000
+Time Elapsed Since Start: 0:04:05.860000
+Time Elapsed Since Start: 0:04:07.828000
+Time Elapsed Since Start: 0:04:10.079000
+Time Elapsed Since Start: 0:04:11.881000
+Time Elapsed Since Start: 0:04:13.851000
+Time Elapsed Since Start: 0:04:15.899000
+Time Elapsed Since Start: 0:04:17.837000
+Time Elapsed Since Start: 0:04:19.837000
+Time Elapsed Since Start: 0:04:22.150000
+Time Elapsed Since Start: 0:04:24.089000
+Time Elapsed Since Start: 0:04:25.917000
+Time Elapsed Since Start: 0:04:28.389000
+Time Elapsed Since Start: 0:04:29.951000
+Time Elapsed Since Start: 0:04:31.983000
+Time Elapsed Since Start: 0:04:33.844000
+Time Elapsed Since Start: 0:04:35.969000
+Time Elapsed Since Start: 0:04:37.922000
+Time Elapsed Since Start: 0:04:39.892000
+Time Elapsed Since Start: 0:04:41.925000
+Time Elapsed Since Start: 0:04:43.895000
+Time Elapsed Since Start: 0:04:45.974000
+Time Elapsed Since Start: 0:04:47.895000
+Time Elapsed Since Start: 0:04:49.866000
+Time Elapsed Since Start: 0:04:52.100000
+Time Elapsed Since Start: 0:04:54.976000
+Time Elapsed Since Start: 0:04:57.023000
+Time Elapsed Since Start: 0:04:59.056000
+Time Elapsed Since Start: 0:05:00.649000
+Time Elapsed Since Start: 0:05:02.556000
+Time Elapsed Since Start: 0:05:04.604000
+Time Elapsed Since Start: 0:05:06.605000
+Time Elapsed Since Start: 0:05:08.777000
+Time Elapsed Since Start: 0:05:10.559000
+Time Elapsed Since Start: 0:05:12.762000
+Time Elapsed Since Start: 0:05:14.592000
+Time Elapsed Since Start: 0:05:16.623000
+Time Elapsed Since Start: 0:05:18.547000
+Time Elapsed Since Start: 0:05:20.594000
+Time Elapsed Since Start: 0:05:22.647000
+Time Elapsed Since Start: 0:05:24.663000
+Time Elapsed Since Start: 0:05:26.976000
+Time Elapsed Since Start: 0:05:28.586000
+Time Elapsed Since Start: 0:05:30.541000
+Time Elapsed Since Start: 0:05:32.603000
+Time Elapsed Since Start: 0:05:34.559000
+Time Elapsed Since Start: 0:05:36.575000
+Time Elapsed Since Start: 0:05:38.545000
+Time Elapsed Since Start: 0:05:40.592000
+Time Elapsed Since Start: 0:05:42.608000
+Time Elapsed Since Start: 0:05:44.624000
+Time Elapsed Since Start: 0:05:46.593000
+Time Elapsed Since Start: 0:05:48.564000
+Time Elapsed Since Start: 0:05:50.642000
+Time Elapsed Since Start: 0:05:52.767000
+Time Elapsed Since Start: 0:05:54.581000
+Time Elapsed Since Start: 0:05:56.833000
+Time Elapsed Since Start: 0:05:58.583000
+Time Elapsed Since Start: 0:06:00.599000
+Time Elapsed Since Start: 0:06:02.802000
+Time Elapsed Since Start: 0:06:04.554000
+Time Elapsed Since Start: 0:06:06.617000
+Time Elapsed Since Start: 0:06:08.602000
+Time Elapsed Since Start: 0:06:10.587000
+Time Elapsed Since Start: 0:06:12.681000
+Time Elapsed Since Start: 0:06:14.605000
+Time Elapsed Since Start: 0:06:16.606000
+Time Elapsed Since Start: 0:06:18.545000
+Time Elapsed Since Start: 0:06:20.765000
+Time Elapsed Since Start: 0:06:22.578000
+Time Elapsed Since Start: 0:06:24.594000
+Time Elapsed Since Start: 0:06:26.610000
+Time Elapsed Since Start: 0:06:28.579000
+Time Elapsed Since Start: 0:06:30.611000
+Time Elapsed Since Start: 0:06:32.564000
+Time Elapsed Since Start: 0:06:34.566000
+Time Elapsed Since Start: 0:06:36.668000
+Time Elapsed Since Start: 0:06:38.574000
+Time Elapsed Since Start: 0:06:40.575000
+Time Elapsed Since Start: 0:06:42.566000
+Time Elapsed Since Start: 0:06:44.552000
+Time Elapsed Since Start: 0:06:46.554000
+Time Elapsed Since Start: 0:06:48.586000
+Time Elapsed Since Start: 0:06:50.555000
+Time Elapsed Since Start: 0:06:52.571000
+Time Elapsed Since Start: 0:06:54.556000
+Time Elapsed Since Start: 0:06:56.572000
+Time Elapsed Since Start: 0:06:58.574000
+Time Elapsed Since Start: 0:07:00.652000
+Time Elapsed Since Start: 0:07:02.574000
+Time Elapsed Since Start: 0:07:04.543000
+Time Elapsed Since Start: 0:07:06.590000
+Time Elapsed Since Start: 0:07:08.608000
+Time Elapsed Since Start: 0:07:10.563000
+Time Elapsed Since Start: 0:07:12.579000
+Time Elapsed Since Start: 0:07:14.548000
+Time Elapsed Since Start: 0:07:16.814000
+Time Elapsed Since Start: 0:07:18.581000
+Time Elapsed Since Start: 0:07:20.613000
+Time Elapsed Since Start: 0:07:22.566000
+Time Elapsed Since Start: 0:07:24.599000
+Time Elapsed Since Start: 0:07:26.599000
+Time Elapsed Since Start: 0:07:29.179000
+Time Elapsed Since Start: 0:07:31.195000
+Time Elapsed Since Start: 0:07:32.914000
+Time Elapsed Since Start: 0:07:34.914000
+Time Elapsed Since Start: 0:07:36.727000
+Time Elapsed Since Start: 0:07:38.682000
+Time Elapsed Since Start: 0:07:40.729000
+Time Elapsed Since Start: 0:07:42.682000
+Time Elapsed Since Start: 0:07:44.714000
+Time Elapsed Since Start: 0:07:46.730000
+Time Elapsed Since Start: 0:07:48.700000
+Time Elapsed Since Start: 0:07:50.669000
+Time Elapsed Since Start: 0:07:52.701000
+Time Elapsed Since Start: 0:07:54.671000
+Time Elapsed Since Start: 0:07:56.687000
+Time Elapsed Since Start: 0:07:58.690000
+Time Elapsed Since Start: 0:08:00.691000
+Time Elapsed Since Start: 0:08:02.785000
+Time Elapsed Since Start: 0:08:04.694000
+Time Elapsed Since Start: 0:08:06.709000
+Time Elapsed Since Start: 0:08:09.007000
+Time Elapsed Since Start: 0:08:10.991000
+Time Elapsed Since Start: 0:08:12.867000
+Time Elapsed Since Start: 0:08:14.743000
+Time Elapsed Since Start: 0:08:16.743000
+Time Elapsed Since Start: 0:08:18.746000
+Time Elapsed Since Start: 0:08:20.715000
+Time Elapsed Since Start: 0:08:22.762000
+Time Elapsed Since Start: 0:08:24.982000
+Time Elapsed Since Start: 0:08:26.718000
+Time Elapsed Since Start: 0:08:28.815000
+Time Elapsed Since Start: 0:08:30.784000
+Time Elapsed Since Start: 0:08:32.799000
+Time Elapsed Since Start: 0:08:34.769000
+Time Elapsed Since Start: 0:08:36.831000
+Time Elapsed Since Start: 0:08:38.896000
+Time Elapsed Since Start: 0:08:40.805000
+Time Elapsed Since Start: 0:08:42.961000
+Time Elapsed Since Start: 0:08:44.992000
+Time Elapsed Since Start: 0:08:47.008000
+Time Elapsed Since Start: 0:08:48.793000
+Time Elapsed Since Start: 0:08:50.966000
+Time Elapsed Since Start: 0:08:52.841000
+Time Elapsed Since Start: 0:08:55.076000
+Time Elapsed Since Start: 0:08:57.123000
+Time Elapsed Since Start: 0:08:58.875000
+Time Elapsed Since Start: 0:09:01.391000
+Time Elapsed Since Start: 0:09:03.564000
+Time Elapsed Since Start: 0:09:05.564000
+Time Elapsed Since Start: 0:09:07.518000
+Time Elapsed Since Start: 0:09:09.598000
+Time Elapsed Since Start: 0:09:11.566000
+Time Elapsed Since Start: 0:09:13.552000
+Time Elapsed Since Start: 0:09:15.521000
+Time Elapsed Since Start: 0:09:17.553000
+Time Elapsed Since Start: 0:09:19.573000
+Time Elapsed Since Start: 0:09:21.604000
+Time Elapsed Since Start: 0:09:23.605000
+Time Elapsed Since Start: 0:09:26.089000
+Time Elapsed Since Start: 0:09:27.652000
+Time Elapsed Since Start: 0:09:29.575000
+Time Elapsed Since Start: 0:09:31.607000
+Time Elapsed Since Start: 0:09:33.811000
+Time Elapsed Since Start: 0:09:35.765000
+Time Elapsed Since Start: 0:09:37.562000
+Time Elapsed Since Start: 0:09:39.845000
+Time Elapsed Since Start: 0:09:41.581000
+Time Elapsed Since Start: 0:09:44.082000
+Time Elapsed Since Start: 0:09:45.567000
+Time Elapsed Since Start: 0:09:47.614000
+Time Elapsed Since Start: 0:09:49.585000
+Time Elapsed Since Start: 0:09:51.616000
+Time Elapsed Since Start: 0:09:53.602000
+Time Elapsed Since Start: 0:09:55.586000
+Time Elapsed Since Start: 0:09:57.571000
+Time Elapsed Since Start: 0:09:59.650000
+Time Elapsed Since Start: 0:10:01.619000
+Time Elapsed Since Start: 0:10:03.588000
+Time Elapsed Since Start: 0:10:05.870000
+Time Elapsed Since Start: 0:10:07.604000
+Time Elapsed Since Start: 0:10:09.589000
+Time Elapsed Since Start: 0:10:11.605000
+Time Elapsed Since Start: 0:10:13.685000
+Time Elapsed Since Start: 0:10:15.802000
+Time Elapsed Since Start: 0:10:17.615000
+Time Elapsed Since Start: 0:10:19.819000
+Time Elapsed Since Start: 0:10:21.648000
+Time Elapsed Since Start: 0:10:23.633000
+Time Elapsed Since Start: 0:10:26.290000
+Time Elapsed Since Start: 0:10:28.479000
+Time Elapsed Since Start: 0:10:30.715000
+Time Elapsed Since Start: 0:10:32.778000
+Time Elapsed Since Start: 0:10:34.326000
+Time Elapsed Since Start: 0:10:36.560000
+Time Elapsed Since Start: 0:10:38.294000
+Time Elapsed Since Start: 0:10:40.296000
+Time Elapsed Since Start: 0:10:42.515000
+Time Elapsed Since Start: 0:10:44.298000
+Time Elapsed Since Start: 0:10:46.282000
+Time Elapsed Since Start: 0:10:48.550000
+Time Elapsed Since Start: 0:10:50.316000
+Time Elapsed Since Start: 0:10:52.378000
+Time Elapsed Since Start: 0:10:54.316000
+Time Elapsed Since Start: 0:10:56.365000
+Time Elapsed Since Start: 0:10:58.318000
+Time Elapsed Since Start: 0:11:00.351000
+Time Elapsed Since Start: 0:11:02.320000
+Time Elapsed Since Start: 0:11:04.305000
+Time Elapsed Since Start: 0:11:06.274000
+Time Elapsed Since Start: 0:11:08.523000
+Time Elapsed Since Start: 0:11:10.351000
+Time Elapsed Since Start: 0:11:12.298000
+Time Elapsed Since Start: 0:11:14.330000
+Time Elapsed Since Start: 0:11:16.408000
+Time Elapsed Since Start: 0:11:18.331000
+Time Elapsed Since Start: 0:11:20.286000
+Time Elapsed Since Start: 0:11:22.552000
+Time Elapsed Since Start: 0:11:24.490000
+Time Elapsed Since Start: 0:11:26.481000
+Time Elapsed Since Start: 0:11:28.467000
+Time Elapsed Since Start: 0:11:30.514000
+Time Elapsed Since Start: 0:11:32.482000
+Time Elapsed Since Start: 0:11:34.471000
+Time Elapsed Since Start: 0:11:36.606000
+Time Elapsed Since Start: 0:11:38.513000
+Time Elapsed Since Start: 0:11:40.513000
+Time Elapsed Since Start: 0:11:42.482000
+Time Elapsed Since Start: 0:11:44.546000
+Time Elapsed Since Start: 0:11:46.516000
+Time Elapsed Since Start: 0:11:48.456000
+Time Elapsed Since Start: 0:11:50.534000
+Time Elapsed Since Start: 0:11:52.487000
+Time Elapsed Since Start: 0:11:54.661000
+Time Elapsed Since Start: 0:11:56.504000
+Time Elapsed Since Start: 0:11:58.489000
+Time Elapsed Since Start: 0:12:00.521000
+Time Elapsed Since Start: 0:12:02.474000
+Time Elapsed Since Start: 0:12:04.490000
+Time Elapsed Since Start: 0:12:06.709000
+Time Elapsed Since Start: 0:12:08.539000
+Time Elapsed Since Start: 0:12:10.494000
+Time Elapsed Since Start: 0:12:12.494000
+Time Elapsed Since Start: 0:12:14.730000
+Time Elapsed Since Start: 0:12:16.449000
+Time Elapsed Since Start: 0:12:18.465000
+Time Elapsed Since Start: 0:12:20.465000
+Time Elapsed Since Start: 0:12:22.700000
+Time Elapsed Since Start: 0:12:24.483000
+Time Elapsed Since Start: 0:12:26.498000
+Time Elapsed Since Start: 0:12:28.500000
+Time Elapsed Since Start: 0:12:30.531000
+Time Elapsed Since Start: 0:12:32.578000
+Time Elapsed Since Start: 0:12:34.486000
+Time Elapsed Since Start: 0:12:36.521000
+Time Elapsed Since Start: 0:12:38.523000
+Time Elapsed Since Start: 0:12:40.539000
+Time Elapsed Since Start: 0:12:42.445000
+Time Elapsed Since Start: 0:12:44.494000
+Time Elapsed Since Start: 0:12:46.509000
+Time Elapsed Since Start: 0:12:48.541000
+Time Elapsed Since Start: 0:12:50.729000
+Time Elapsed Since Start: 0:12:52.479000
+Time Elapsed Since Start: 0:12:54.575000
+Time Elapsed Since Start: 0:12:56.527000
+Time Elapsed Since Start: 0:12:58.499000
+Time Elapsed Since Start: 0:13:00.453000
+Time Elapsed Since Start: 0:13:02.453000
+Time Elapsed Since Start: 0:13:04.470000
+Time Elapsed Since Start: 0:13:06.470000
+Time Elapsed Since Start: 0:13:08.472000
+Time Elapsed Since Start: 0:13:10.550000
+Time Elapsed Since Start: 0:13:12.676000
+Time Elapsed Since Start: 0:13:14.443000
+Time Elapsed Since Start: 0:13:16.521000
+Time Elapsed Since Start: 0:13:18.662000
+Time Elapsed Since Start: 0:13:20.522000
+Time Elapsed Since Start: 0:13:22.514000
+Time Elapsed Since Start: 0:13:24.515000
+Time Elapsed Since Start: 0:13:26.454000
+Time Elapsed Since Start: 0:13:28.503000
+Time Elapsed Since Start: 0:13:30.518000
+Time Elapsed Since Start: 0:13:32.472000
+Time Elapsed Since Start: 0:13:34.473000
+Time Elapsed Since Start: 0:13:36.458000
+Time Elapsed Since Start: 0:13:38.491000
+Time Elapsed Since Start: 0:13:40.491000
+Time Elapsed Since Start: 0:13:42.475000
+Time Elapsed Since Start: 0:13:44.508000
+Time Elapsed Since Start: 0:13:46.493000
+Time Elapsed Since Start: 0:13:48.479000
+Time Elapsed Since Start: 0:13:50.558000
+Time Elapsed Since Start: 0:13:52.496000
+Time Elapsed Since Start: 0:13:54.482000
+Time Elapsed Since Start: 0:13:56.482000
+Time Elapsed Since Start: 0:13:58.467000
+Time Elapsed Since Start: 0:14:00.451000
+Time Elapsed Since Start: 0:14:02.530000
+Time Elapsed Since Start: 0:14:04.531000
+Time Elapsed Since Start: 0:14:06.500000
+Time Elapsed Since Start: 0:14:08.565000
+Time Elapsed Since Start: 0:14:10.533000
+Time Elapsed Since Start: 0:14:12.565000
+Time Elapsed Since Start: 0:14:14.472000
+Time Elapsed Since Start: 0:14:16.535000
+Time Elapsed Since Start: 0:14:18.754000
+Time Elapsed Since Start: 0:14:20.504000
+Time Elapsed Since Start: 0:14:22.458000
+Time Elapsed Since Start: 0:14:24.682000
+Time Elapsed Since Start: 0:14:26.465000
+Time Elapsed Since Start: 0:14:28.498000
+Time Elapsed Since Start: 0:14:30.452000
+Time Elapsed Since Start: 0:14:32.499000
+Time Elapsed Since Start: 0:14:34.470000
+Time Elapsed Since Start: 0:14:36.693000
+Time Elapsed Since Start: 0:14:38.540000
+Time Elapsed Since Start: 0:14:40.510000
+Time Elapsed Since Start: 0:14:42.464000
+Time Elapsed Since Start: 0:14:44.465000
+Time Elapsed Since Start: 0:14:46.517000
+Time Elapsed Since Start: 0:14:48.521000
+Time Elapsed Since Start: 0:14:50.492000
+Time Elapsed Since Start: 0:14:52.495000
+Time Elapsed Since Start: 0:14:55.007000
+Time Elapsed Since Start: 0:14:56.536000
+Time Elapsed Since Start: 0:14:58.539000
+Time Elapsed Since Start: 0:15:00.549000
+Time Elapsed Since Start: 0:15:02.537000
+Time Elapsed Since Start: 0:15:04.542000
+Time Elapsed Since Start: 0:15:06.706000
+Time Elapsed Since Start: 0:15:08.501000
+Time Elapsed Since Start: 0:15:10.518000
+Time Elapsed Since Start: 0:15:12.573000
+Time Elapsed Since Start: 0:15:14.542000
+Time Elapsed Since Start: 0:15:16.737000
+Time Elapsed Since Start: 0:15:18.561000
+Time Elapsed Since Start: 0:15:20.491000
+Time Elapsed Since Start: 0:15:22.906000
+Time Elapsed Since Start: 0:15:24.579000
+Traceback (most recent call last):
+  File "gemdax1.py", line 46, in <module>
+    gem_sell_price = (float(gem_ask())-0.00001)         # price offset shown in +/- BTC/ETH
+  File "gemdax1.py", line 30, in gem_ask
+    ticker = requests.get(gem_ticker_url)
+  File "C:\Python27\lib\site-packages\requests\api.py", line 70, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\api.py", line 56, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 488, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Python27\lib\site-packages\requests\sessions.py", line 609, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Python27\lib\site-packages\requests\adapters.py", line 423, in send
+    timeout=timeout
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 345, in _make_request
+    self._validate_conn(conn)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 844, in _validate_conn
+    conn.connect()
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Python27\lib\site-packages\requests\packages\urllib3\util\ssl_.py", line 308, in ssl_wrap_socket
+    context.load_verify_locations(ca_certs, ca_cert_dir)
+KeyboardInterrupt
+
+C:\PYFiles>/1000000
+'/1000000' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\PYFiles>

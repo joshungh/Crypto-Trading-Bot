@@ -1,0 +1,15 @@
+CHANGES.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.cfg
+setup.py
+bin/api_runthrough.py
+bitstampy/__init__.py
+bitstampy/api.py
+bitstampy/calls.py
+bitstampy.egg-info/PKG-INFO
+bitstampy.egg-info/SOURCES.txt
+bitstampy.egg-info/dependency_links.txt
+bitstampy.egg-info/requires.txt
+bitstampy.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+README.rst
+setup.cfg
+setup.py
+BitstampClient.egg-info/PKG-INFO
+BitstampClient.egg-info/SOURCES.txt
+BitstampClient.egg-info/dependency_links.txt
+BitstampClient.egg-info/requires.txt
+BitstampClient.egg-info/top_level.txt
+bitstamp/__init__.py
+bitstamp/client.py
+test/test_issue_2.py

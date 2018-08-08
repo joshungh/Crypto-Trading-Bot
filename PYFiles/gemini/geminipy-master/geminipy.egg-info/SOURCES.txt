@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+geminipy/__init__.py
+geminipy.egg-info/PKG-INFO
+geminipy.egg-info/SOURCES.txt
+geminipy.egg-info/dependency_links.txt
+geminipy.egg-info/not-zip-safe
+geminipy.egg-info/top_level.txt
